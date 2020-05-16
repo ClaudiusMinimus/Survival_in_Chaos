@@ -1,0 +1,11 @@
+{
+    "backupEnabled": true,
+    "firstLaunchDelay": true,
+    "backupCreationDelay": 1800000,
+    "backupCompressionLevel": 3,
+    "backupDirectoryPath": "backup",
+    "backupDateFormat": "yyyy-MM-dd_HH.mm.ss",
+    "maxBackupFiles": 10,
+    "rollingBackupFilesEnabled": true,
+    "removeExtraFiles": true
+}

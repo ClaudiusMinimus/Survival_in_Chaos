@@ -1,0 +1,19 @@
+{
+    "name": "Day 3",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 3,
+    "pages": [
+        {
+            "type": "text",
+            "text": "this is a test"
+        },
+        {
+            "type": "crafting",
+            "title": "Stone Pickaxe",
+            "recipe": "minecraft:iron_pickaxe",
+            "text": "Make a stone pick"
+        }
+
+    ]
+}

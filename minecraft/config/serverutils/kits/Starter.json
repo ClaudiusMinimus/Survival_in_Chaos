@@ -1,0 +1,58 @@
+{
+  "name": "Starter",
+  "kit": [
+    {
+      "nbt": "{id:\"silentgear:sword\",Count:1b,tag:{SGear_Data:{Construction:{Parts:[{Item:{id:\"silentgems:sapphire\",Count:1b},ID:\"silentgems:main/sapphire\"},{Item:{id:\"silentgems:sapphire\",Count:1b},ID:\"silentgems:main/sapphire\"},{Item:{id:\"minecraft:bone\",Count:1b},ID:\"silentgear:rod/bone\"},{Item:{id:\"minecraft:air\",Count:1b},ID:\"silentgear:highlight/highlight\"},{Item:{id:\"minecraft:leather\",Count:1b},ID:\"silentgear:grip/leather\"}]},Rendering:{BlendedHeadColor:1908198},ModelKeys:{0:\"sword|0|0|0|0\"},Properties:{repair_efficiency:1.1f,synergy:1.0f,magic_armor:4.0f,durability:1182.72f,armor_durability:20.0f,ranged_speed:-0.2f,attack_speed:-2.45f,harvest_speed:8.28f,ranged_damage:1.0f,armor_toughness:2.0f,LockStats:0b,Traits:[{Level:1b,Name:\"silentgear:brittle\"},{Level:3b,Name:\"silentgear:flexible\"}],enchantability:11.0f,armor:16.0f,melee_damage:8.400001f,chargeability:1.1f,magic_damage:3.2f,harvest_level:2.0f,rarity:35.0f}},SGear_UUIDLeast:-6769491359740224512L,SGear_UUIDMost:3703770191726658964L,Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_pickaxe\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_shovel\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_axe\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_chestplate\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_leggings\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_helmet\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:iron_boots\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:shield\",Count:1b,tag:{Damage:0}}"
+    },
+    {
+      "nbt": "{id:\"minecraft:cooked_beef\",Count:16b}"
+    },
+    {
+      "nbt": "{id:\"minecraft:torch\",Count:16b}"
+    },
+    {
+      "nbt": "{id:\"pickletweaks:magnet\",Count:1b,tag:{Enabled:1b}}"
+    },
+    {
+      "nbt": "{id:\"usefulbackpacks:backpack_small\",Count:1b}"
+    },
+    {
+      "nbt": "{id:\"patchouli:guide_book\",Count:1b,tag:{\"patchouli:book\":\"patchouli:chaos\"}}"
+    },
+    {
+      "nbt": "{id:\"ftbquests:book\",Count:1b}"
+    },
+    {
+      "nbt": "{id:\"essentials:fertile_soil_wheat\",Count:1b}"
+    },
+    {
+      "nbt": "{id:\"essentials:fertile_soil_oak\",Count:1b}"
+    }
+  ],
+  "cooldown": 10,
+  "isDefault": true
+}

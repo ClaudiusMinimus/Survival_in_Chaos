@@ -1,0 +1,114 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=2%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 80
+}
+
+customization {
+  identifier = %id=3%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 105
+}
+
+customization {
+  identifier = %id=4%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=5%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=6%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 130
+}
+
+customization {
+  identifier = %id=6%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=7%
+  orientation = top-left
+  x = 75
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=8%
+  orientation = top-left
+  x = 50
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=9%
+  orientation = top-left
+  x = 128
+  action = movebutton
+  y = 130
+}
+
+customization {
+  identifier = %id=9%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=10%
+  orientation = top-left
+  x = 128
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=10%
+  width = 97
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 24
+  width = 98
+  action = addbutton
+  y = 155
+  label = Discord
+  value = https://discord.gg/jXrx4Tu
+  height = 20
+}
+
