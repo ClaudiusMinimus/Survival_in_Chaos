@@ -14,7 +14,7 @@
 	# To blacklist a specific mod's structure, type out the resourcelocation. Example: "example_mod_id:wizard_tower"
 	# NOTE: Seperate each entry with a comma. Example: "example_mod_id_1:wizard_tower, example_mod_id_2:*, example_mod_id_1:super_village"
 	# Also, any entry using ultra_amplified_dimension or minecraft id will be ignored as I already handle those ids internally.
-	blacklistedFeatureList = "endergetic:*, midnight:*, mining_dimension:*"
+	blacklistedFeatureList = "endergetic:*, mining_dimension:*"
 	#
 	# Attempt to add modded mobs from vanilla biomes into Ultra Amplified version of that biome.
 	# Only works if other mod added the mob by addSpawn(...) to vanilla biome and registered the mob correctly without the 'minecraft' namespace.
