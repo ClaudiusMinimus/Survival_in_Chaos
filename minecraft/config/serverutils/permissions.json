@@ -48,6 +48,7 @@
   "delwarp_name": "serverutils.delwarp",
   "describe": "command.describe",
   "difficulty": "difficulty",
+  "difficulty_normal": "command.difficulty.normal",
   "difficulty_peaceful": "difficulty.peaceful",
   "drown": "serverutils.flood",
   "drown_player": "serverutils.flood",
