@@ -53,17 +53,6 @@
 				type: "item",
 				item: "powah:energy_cable_starter",
 				count: 8
-			}],
-			rewards: [{
-				id: 1380,
-				type: "item",
-				item: {
-					id: "minecraft:splash_potion",
-					Count: 1,
-					tag: {
-						Potion: "minecraft:night_vision"
-					}
-				}
 			}]
 		},
 		{
@@ -207,11 +196,6 @@
 						}
 					}
 				}
-			}],
-			rewards: [{
-				id: 1390,
-				type: "item",
-				item: "wtbw_machines:teleport_inhibitor"
 			}]
 		},
 		{
@@ -650,11 +634,6 @@
 				id: 307,
 				type: "item",
 				item: "powah:energy_cable_basic"
-			}],
-			rewards: [{
-				id: 1381,
-				type: "item",
-				item: "securitycraft:bucket_f_lava"
 			}]
 		},
 		{
@@ -666,11 +645,6 @@
 				id: 309,
 				type: "item",
 				item: "powah:energy_cable_hardened"
-			}],
-			rewards: [{
-				id: 1382,
-				type: "item",
-				item: "wtbw_machines:redstone_timer"
 			}]
 		},
 		{
@@ -682,11 +656,6 @@
 				id: 311,
 				type: "item",
 				item: "powah:energy_cable_blazing"
-			}],
-			rewards: [{
-				id: 1383,
-				type: "item",
-				item: "xreliquary:witherless_rose"
 			}]
 		},
 		{
@@ -698,11 +667,6 @@
 				id: 313,
 				type: "item",
 				item: "powah:energy_cable_niotic"
-			}],
-			rewards: [{
-				id: 1384,
-				type: "item",
-				item: "minecraft:heart_of_the_sea"
 			}]
 		},
 		{
@@ -714,11 +678,6 @@
 				id: 315,
 				type: "item",
 				item: "powah:energy_cable_spirited"
-			}],
-			rewards: [{
-				id: 1385,
-				type: "item",
-				item: "xreliquary:salamander_eye"
 			}]
 		},
 		{
@@ -730,11 +689,6 @@
 				id: 317,
 				type: "item",
 				item: "powah:energy_cable_nitro"
-			}],
-			rewards: [{
-				id: 1386,
-				type: "item",
-				item: "vampirism:garlic_beacon_normal"
 			}]
 		},
 		{
@@ -746,14 +700,6 @@
 				id: 319,
 				type: "item",
 				item: "powah:energy_cell_starter"
-			}],
-			rewards: [{
-				id: 1387,
-				type: "item",
-				item: {
-					id: "xreliquary:holy_hand_grenade",
-					Count: 4
-				}
 			}]
 		},
 		{
@@ -765,14 +711,6 @@
 				id: 321,
 				type: "item",
 				item: "powah:energy_cell_basic"
-			}],
-			rewards: [{
-				id: 1388,
-				type: "item",
-				item: {
-					id: "mcwbridges:sandstone_bridge",
-					Count: 10
-				}
 			}]
 		},
 		{
@@ -784,11 +722,6 @@
 				id: 323,
 				type: "item",
 				item: "powah:energy_cell_blazing"
-			}],
-			rewards: [{
-				id: 1391,
-				type: "item",
-				item: "xreliquary:phoenix_down"
 			}]
 		},
 		{
@@ -800,14 +733,6 @@
 				id: 325,
 				type: "item",
 				item: "powah:energy_cell_niotic"
-			}],
-			rewards: [{
-				id: 1392,
-				type: "item",
-				item: {
-					id: "xreliquary:glowing_bread",
-					Count: 8
-				}
 			}]
 		},
 		{
@@ -819,11 +744,6 @@
 				id: 327,
 				type: "item",
 				item: "powah:energy_cell_spirited"
-			}],
-			rewards: [{
-				id: 1393,
-				type: "item",
-				item: "cyclic:heart"
 			}]
 		},
 		{
@@ -835,25 +755,6 @@
 				id: 329,
 				type: "item",
 				item: "powah:energy_cell_nitro"
-			}],
-			rewards: [{
-				id: 1394,
-				type: "item",
-				item: {
-					ForgeCaps: {
-						Parent: {
-							Items: [{
-								filter: {
-									id: "minecraft:bone_meal",
-									Count: 1
-								},
-								amount: 0
-							}]
-						}
-					},
-					id: "xreliquary:harvest_rod",
-					Count: 1
-				}
 			}]
 		},
 		{
