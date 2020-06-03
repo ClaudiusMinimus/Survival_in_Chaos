@@ -69,7 +69,7 @@
 				id: 15,
 				type: "item",
 				item: {
-					id: "pickletweaks:flint_shears",
+					id: "mining_helmet:mining_helmet",
 					Count: 1,
 					tag: {
 						Damage: 0

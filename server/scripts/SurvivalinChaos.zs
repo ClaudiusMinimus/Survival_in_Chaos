@@ -56,3 +56,9 @@ craftingTable.addShaped("vines_from_leaves", <item:minecraft:vine> * 5, [
         [<item:minecraft:air>, <tag:minecraft:leaves>, <item:minecraft:air>],
         [<tag:minecraft:leaves>, <item:minecraft:air>, <tag:minecraft:leaves>]
     ], null);
+
+craftingTable.addShaped("make_slimepearls", <item:xreliquary:slime_pearl>, [
+        [<tag:forge:slimeballs>, <tag:forge:slimeballs>, <tag:forge:slimeballs>], 
+        [<tag:forge:slimeballs>, <item:minecraft:diamond>, <tag:forge:slimeballs>],
+        [<tag:forge:slimeballs>, <tag:forge:slimeballs>, <tag:forge:slimeballs>]
+    ], null);

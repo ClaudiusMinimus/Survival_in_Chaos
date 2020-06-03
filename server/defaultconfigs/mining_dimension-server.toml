@@ -1,5 +1,4 @@
 #The dimension from where you can teleport to the mining dimension and back
-#overworld_dimension = "ultra_amplified_dimension:ultraamplified"
 overworld_dimension = "minecraft:overworld"
 
 [world_generation]

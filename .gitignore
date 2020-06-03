@@ -29,6 +29,8 @@ minecraft/instance.cfg
 minecraft/mods/*
 minecraft/ops.json
 minecraft/options.txt
+minecraft/optionsof.txt
+minecraft/optionsshaders.txt
 minecraft/patchouli_data.json
 minecraft/realms_persistence.json
 minecraft/reauth.toml
