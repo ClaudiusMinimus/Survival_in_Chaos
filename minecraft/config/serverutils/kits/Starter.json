@@ -45,12 +45,6 @@
     },
     {
       "nbt": "{id:\"ftbquests:book\",Count:1b}"
-    },
-    {
-      "nbt": "{id:\"essentials:fertile_soil_wheat\",Count:1b}"
-    },
-    {
-      "nbt": "{id:\"essentials:fertile_soil_oak\",Count:1b}"
     }
   ],
   "cooldown": 10,
