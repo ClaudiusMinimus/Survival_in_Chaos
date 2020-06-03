@@ -18,7 +18,7 @@
 	#
 	# Attempt to add modded mobs from vanilla biomes into Ultra Amplified version of that biome.
 	# Only works if other mod added the mob by addSpawn(...) to vanilla biome and registered the mob correctly without the 'minecraft' namespace.
-	importModdedMobs = true
+	importModdedMobs = false
 	#
 	# Blacklist either all of a mod's biomes or its specific biomes from being imported into Ultra Amplified dimension/worldtype.
 	# To blacklist all of a mod's biomes, type out its id like so with :* attached at end. Example: "example_mod_id:*"
@@ -76,16 +76,16 @@
 	#
 	# Sea Level. Default is 75.
 	#Range: 0 ~ 250
-	seaLevel = 75
+	seaLevel = 60
 	#
 	# Does something neat! Give it a try lol
 	# You might want to use this on a fresh new world... ;)
 	# Changes the terrain's look!
 	secretSettings = false
 	#
-	# Maxium height the terrain can generate up to.
+	# Maxium height the terrain can generate up to. Default 245
 	#Range: 100 ~ 256
-	yMaximum = 245
+	yMaximum = 180
 	#
 	# Changes the xz terrain scale.
 	# Not exactly sure what this does.

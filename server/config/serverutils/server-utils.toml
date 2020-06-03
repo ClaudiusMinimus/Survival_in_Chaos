@@ -23,7 +23,7 @@ tag = "&8[&9S&aU&8]"
 		max = 1000
 		enable = true
 		#Range: > 0
-		cooldown = 0
+		cooldown = 30
 
 	[Commands.delhome]
 		#Range: > 0
@@ -143,7 +143,7 @@ tag = "&8[&9S&aU&8]"
 		perm = "serverutils.reload"
 		enable = true
 		#Range: > 0
-		cooldown = 5
+		cooldown = 0
 
 	[Commands.kit]
 		#Range: > 0
@@ -270,7 +270,7 @@ tag = "&8[&9S&aU&8]"
 
 	[Commands.home]
 		#Range: > 0
-		delay = 5
+		delay = 0
 		aliases = ["home"]
 		perm = "serverutils.home"
 		home-max-perm = "serverutils.maxhome_"
