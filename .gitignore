@@ -74,3 +74,5 @@ instance.cfg
 !minecraft/config/packmenu.cfg
 !minecraft/config/serverutils/kits/Starter.json
 !mmc-pack.json
+minecraft/optionsof.txt
+minecraft/optionsshaders.txt
