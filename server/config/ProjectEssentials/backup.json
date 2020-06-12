@@ -1,7 +1,7 @@
 {
     "backupEnabled": true,
     "firstLaunchDelay": true,
-    "backupCreationDelay": 10800000,
+    "backupCreationDelay": 1800000,
     "backupCompressionLevel": 3,
     "backupDirectoryPath": "backup",
     "backupDateFormat": "yyyy-MM-dd_HH.mm.ss",
