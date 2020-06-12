@@ -1065,8 +1065,8 @@
 					id: "refinedstorage:1k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 1437679124498498258L,
-						IdLeast: -5106443079847954027L
+						IdMost: 6254295115528684799L,
+						IdLeast: -5072791650703322280L
 					}
 				}
 			}]
@@ -1088,8 +1088,8 @@
 					id: "refinedstorage:4k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -5337972206112847945L,
-						IdLeast: -7646863500956805112L
+						IdMost: -656656288587427842L,
+						IdLeast: -8451004875222400053L
 					}
 				}
 			}]
@@ -1111,8 +1111,8 @@
 					id: "refinedstorage:16k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 8463320503331343595L,
-						IdLeast: -8339245494519343264L
+						IdMost: -5413131951585344829L,
+						IdLeast: -8417620321915759233L
 					}
 				}
 			}]
@@ -1129,7 +1129,15 @@
 			}],
 			rewards: [{
 				id: 1186,
-				type: "item"
+				type: "item",
+				item: {
+					id: "refinedstorage:64k_storage_disk",
+					Count: 1,
+					tag: {
+						IdMost: -4005800881246090954L,
+						IdLeast: -7407342975129730369L
+					}
+				}
 			}]
 		},
 		{
@@ -1149,8 +1157,8 @@
 					id: "refinedstorage:64k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 7531309784544200862L,
-						IdLeast: -5736671483361710899L
+						IdMost: -4980876535309712171L,
+						IdLeast: -5394611471500263348L
 					}
 				}
 			}]
@@ -1172,8 +1180,8 @@
 					id: "refinedstorage:256k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -6613972857035537564L,
-						IdLeast: -6535599125788798183L
+						IdMost: 2759559654227264789L,
+						IdLeast: -6954681983748879686L
 					}
 				}
 			}]
@@ -1195,8 +1203,8 @@
 					id: "refinedstorage:1024k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 6662013708266521792L,
-						IdLeast: -8900446266682330549L
+						IdMost: 7342436972971050954L,
+						IdLeast: -6859223194642352468L
 					}
 				}
 			}]
@@ -1218,8 +1226,8 @@
 					id: "refinedstorage:4096k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -799531673886503513L,
-						IdLeast: -5325661426549766413L
+						IdMost: -7816503069409197330L,
+						IdLeast: -8944126926840499825L
 					}
 				}
 			}]

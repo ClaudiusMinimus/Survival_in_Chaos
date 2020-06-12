@@ -84,7 +84,10 @@
 			rewards: [{
 				id: 1139,
 				type: "item",
-				item: "xreliquary:twilight_cloak"
+				item: {
+					id: "gobber2:gobber2_foo_nether",
+					Count: 8
+				}
 			}]
 		},
 		{
@@ -124,7 +127,10 @@
 			rewards: [{
 				id: 554,
 				type: "item",
-				item: "xreliquary:pedestals/passive/light_blue_passive_pedestal"
+				item: {
+					id: "additional_lights:al_lamp_cobblestone",
+					Count: 8
+				}
 			}]
 		},
 		{
@@ -136,6 +142,14 @@
 				id: 458,
 				type: "item",
 				item: "storagenetwork:storage_kabel"
+			}],
+			rewards: [{
+				id: 1374,
+				type: "item",
+				item: {
+					id: "aquaculture:box",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -147,6 +161,14 @@
 				id: 460,
 				type: "item",
 				item: "storagenetwork:import_kabel"
+			}],
+			rewards: [{
+				id: 1371,
+				type: "item",
+				item: {
+					id: "aquaculture:box",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -158,6 +180,14 @@
 				id: 462,
 				type: "item",
 				item: "storagenetwork:inventory"
+			}],
+			rewards: [{
+				id: 1376,
+				type: "item",
+				item: {
+					id: "aquaculture:lockbox",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -169,6 +199,14 @@
 				id: 464,
 				type: "item",
 				item: "storagenetwork:request"
+			}],
+			rewards: [{
+				id: 1377,
+				type: "item",
+				item: {
+					id: "minecraft:magma_cream",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -221,6 +259,11 @@
 				id: 470,
 				type: "item",
 				item: "storagenetwork:inventory_remote"
+			}],
+			rewards: [{
+				id: 1373,
+				type: "item",
+				item: "cyclic:heart"
 			}]
 		},
 		{
@@ -232,6 +275,14 @@
 				id: 472,
 				type: "item",
 				item: "storagenetwork:import_filter_kabel"
+			}],
+			rewards: [{
+				id: 1372,
+				type: "item",
+				item: {
+					id: "aquaculture:box",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -243,6 +294,14 @@
 				id: 474,
 				type: "item",
 				item: "storagenetwork:filter_kabel"
+			}],
+			rewards: [{
+				id: 1375,
+				type: "item",
+				item: {
+					id: "aquaculture:box",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -254,6 +313,14 @@
 				id: 476,
 				type: "item",
 				item: "storagenetwork:export_kabel"
+			}],
+			rewards: [{
+				id: 1370,
+				type: "item",
+				item: {
+					id: "aquaculture:box",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -265,6 +332,14 @@
 				id: 478,
 				type: "item",
 				item: "storagenetwork:speed_upgrade"
+			}],
+			rewards: [{
+				id: 1378,
+				type: "item",
+				item: {
+					id: "aquaculture:lockbox",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -276,6 +351,14 @@
 				id: 480,
 				type: "item",
 				item: "storagenetwork:stack_upgrade"
+			}],
+			rewards: [{
+				id: 1379,
+				type: "item",
+				item: {
+					id: "additional_lights:standing_torch_s_smooth_stone",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -1042,11 +1125,21 @@
 				type: "item",
 				item: "refinedstorage:disk_drive"
 			}],
-			rewards: [{
-				id: 1197,
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: 1197,
+					type: "xp",
+					xp: 100
+				},
+				{
+					id: 1382,
+					type: "item",
+					item: {
+						id: "minecraft:magma_cream",
+						Count: 8
+					}
+				}
+			]
 		},
 		{
 			x: -1.0d,
@@ -1065,8 +1158,8 @@
 					id: "refinedstorage:1k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 1437679124498498258L,
-						IdLeast: -5106443079847954027L
+						IdMost: 6074673533522956027L,
+						IdLeast: -4794860127549109242L
 					}
 				}
 			}]
@@ -1088,8 +1181,8 @@
 					id: "refinedstorage:4k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -5337972206112847945L,
-						IdLeast: -7646863500956805112L
+						IdMost: 484726634022126250L,
+						IdLeast: -6982793828683124383L
 					}
 				}
 			}]
@@ -1111,8 +1204,8 @@
 					id: "refinedstorage:16k_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 8463320503331343595L,
-						IdLeast: -8339245494519343264L
+						IdMost: -8823101873654315274L,
+						IdLeast: -5969694340232546328L
 					}
 				}
 			}]
@@ -1129,7 +1222,15 @@
 			}],
 			rewards: [{
 				id: 1186,
-				type: "item"
+				type: "item",
+				item: {
+					id: "refinedstorage:64k_storage_disk",
+					Count: 1,
+					tag: {
+						IdMost: 3723147626592289004L,
+						IdLeast: -7621912238885375215L
+					}
+				}
 			}]
 		},
 		{
@@ -1149,8 +1250,8 @@
 					id: "refinedstorage:64k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 7531309784544200862L,
-						IdLeast: -5736671483361710899L
+						IdMost: 7986862487827137808L,
+						IdLeast: -5245719560172817823L
 					}
 				}
 			}]
@@ -1172,8 +1273,8 @@
 					id: "refinedstorage:256k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -6613972857035537564L,
-						IdLeast: -6535599125788798183L
+						IdMost: 4672394967674209255L,
+						IdLeast: -6487504244167684068L
 					}
 				}
 			}]
@@ -1195,8 +1296,8 @@
 					id: "refinedstorage:1024k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: 6662013708266521792L,
-						IdLeast: -8900446266682330549L
+						IdMost: -1159732369380258942L,
+						IdLeast: -9035384248014573426L
 					}
 				}
 			}]
@@ -1218,8 +1319,8 @@
 					id: "refinedstorage:4096k_fluid_storage_disk",
 					Count: 1,
 					tag: {
-						IdMost: -799531673886503513L,
-						IdLeast: -5325661426549766413L
+						IdMost: 3586805586220892769L,
+						IdLeast: -7584711102751753541L
 					}
 				}
 			}]
@@ -1502,6 +1603,14 @@
 					Count: 1,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: 1380,
+				type: "item",
+				item: {
+					id: "aquaculture:treasure_chest",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -1520,7 +1629,12 @@
 					type: "item",
 					item: "refinedstorage:security_card"
 				}
-			]
+			],
+			rewards: [{
+				id: 1381,
+				type: "item",
+				item: "cyclic:heart"
+			}]
 		},
 		{
 			x: 0.0d,
