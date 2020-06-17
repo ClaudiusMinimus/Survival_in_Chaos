@@ -26,6 +26,7 @@ minecraft/instance.cfg
 minecraft/instance.json
 minecraft/docs/.~lock.*
 minecraft/instance.cfg
+minecraft/config/serverutils/permissions.json
 minecraft/mods/*
 minecraft/ops.json
 minecraft/options.txt
@@ -76,3 +77,4 @@ instance.cfg
 !minecraft/config/packmenu.cfg
 !minecraft/config/serverutils/kits/Starter.json
 !mmc-pack.json
+minecraft/config/serverutils/permissions.json
