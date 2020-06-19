@@ -6,13 +6,13 @@
     "pages": [
         {
             "type": "text",
-            "text": "this is a test"
+            "text": "I discovered not to use my metal tools until they break. An alloy furnace will let me recover most metals from worn out tools."
         },
         {
             "type": "crafting",
-            "title": "Stone Pickaxe",
-            "recipe": "minecraft:iron_pickaxe",
-            "text": "Make a stone pick"
+            "title": "Alloy Furnace",
+            "recipe": "bluepower:alloyfurnace",
+            "text": "Can use most burnable items as fuel (except tiny coal)."
         }
 
     ]
