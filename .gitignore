@@ -26,6 +26,7 @@ minecraft/instance.cfg
 minecraft/instance.json
 minecraft/docs/.~lock.*
 minecraft/instance.cfg
+minecraft/config/serverutils/permissions.json
 minecraft/mods/*
 minecraft/ops.json
 minecraft/options.txt
@@ -60,6 +61,7 @@ instance.cfg
 *.code-workspace
 *.disabled
 *.pdat
+*_0.*
 
 # Do not ignore these directories
 !minecraft/defaultworldtype
@@ -77,5 +79,3 @@ instance.cfg
 !minecraft/config/packmenu.cfg
 !minecraft/config/serverutils/kits/Starter.json
 !mmc-pack.json
-minecraft/optionsof.txt
-minecraft/optionsshaders.txt
