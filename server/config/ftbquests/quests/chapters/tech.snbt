@@ -1065,6 +1065,21 @@
 					type: "item",
 					item: "mekanism:metallurgic_infuser"
 				}
+			],
+			rewards: [
+				{
+					id: 1391,
+					type: "item",
+					item: "mekanism:basic_tier_installer"
+				},
+				{
+					id: 1392,
+					type: "item",
+					item: {
+						id: "mekanism:upgrade_energy",
+						Count: 2
+					}
+				}
 			]
 		},
 		{
@@ -1101,6 +1116,11 @@
 				id: 389,
 				type: "item",
 				item: "mekanismgenerators:solar_generator"
+			}],
+			rewards: [{
+				id: 1402,
+				type: "item",
+				item: "wtbw_machines:redstone_timer"
 			}]
 		},
 		{
@@ -1112,6 +1132,11 @@
 				id: 391,
 				type: "item",
 				item: "mekanismgenerators:advanced_solar_generator"
+			}],
+			rewards: [{
+				id: 1403,
+				type: "item",
+				item: "mekanism:elite_tier_installer"
 			}]
 		},
 		{
@@ -1123,6 +1148,11 @@
 				id: 393,
 				type: "item",
 				item: "mekanismgenerators:wind_generator"
+			}],
+			rewards: [{
+				id: 1396,
+				type: "item",
+				item: "cyclic:heart"
 			}]
 		},
 		{
@@ -1134,6 +1164,14 @@
 				id: 395,
 				type: "item",
 				item: "mekanismgenerators:bio_generator"
+			}],
+			rewards: [{
+				id: 1400,
+				type: "item",
+				item: {
+					id: "mekanism:alloy_reinforced",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -1175,6 +1213,14 @@
 				id: 405,
 				type: "item",
 				item: "mekanism:energized_smelter"
+			}],
+			rewards: [{
+				id: 1397,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_muffling",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -1186,6 +1232,14 @@
 				id: 407,
 				type: "item",
 				item: "mekanism:enrichment_chamber"
+			}],
+			rewards: [{
+				id: 1395,
+				type: "item",
+				item: {
+					id: "mekanism:dust_osmium",
+					Count: 10
+				}
 			}]
 		},
 		{
@@ -1197,6 +1251,14 @@
 				id: 409,
 				type: "item",
 				item: "mekanism:purification_chamber"
+			}],
+			rewards: [{
+				id: 1398,
+				type: "item",
+				item: {
+					id: "mekanism:upgrade_speed",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -1208,6 +1270,11 @@
 				id: 411,
 				type: "item",
 				item: "mekanism:electrolytic_separator"
+			}],
+			rewards: [{
+				id: 1399,
+				type: "item",
+				item: "mekanism:advanced_gas_tank"
 			}]
 		},
 		{
@@ -1219,6 +1286,11 @@
 				id: 413,
 				type: "item",
 				item: "mekanism:electric_pump"
+			}],
+			rewards: [{
+				id: 1401,
+				type: "item",
+				item: "wtbw_machines:block_breaker"
 			}]
 		},
 		{
@@ -1229,6 +1301,14 @@
 				id: 415,
 				type: "item",
 				item: "mekanism:basic_mechanical_pipe"
+			}],
+			rewards: [{
+				id: 1393,
+				type: "item",
+				item: {
+					id: "mekanism:basic_mechanical_pipe",
+					Count: 8
+				}
 			}]
 		},
 		{
@@ -1239,6 +1319,14 @@
 				id: 417,
 				type: "item",
 				item: "mekanism:basic_universal_cable"
+			}],
+			rewards: [{
+				id: 1394,
+				type: "item",
+				item: {
+					id: "mekanism:basic_universal_cable",
+					Count: 8
+				}
 			}]
 		},
 		{
@@ -1249,6 +1337,11 @@
 				id: 422,
 				type: "item",
 				item: "mekanism:basic_logistical_transporter"
+			}],
+			rewards: [{
+				id: 1390,
+				type: "item",
+				item: "mekanism:logistical_sorter"
 			}]
 		},
 		{
@@ -1457,18 +1550,25 @@
 					}
 				}
 			}],
-			rewards: [
-				{
-					id: 1152,
-					type: "item",
-					item: "wtbw_machines:block_breaker"
-				},
-				{
-					id: 1153,
-					type: "item",
-					item: "wtbw_machines:redstone_timer"
+			rewards: [{
+				id: 1153,
+				type: "item",
+				item: {
+					id: "mekanism:flamethrower",
+					Count: 1,
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0,
+								stored: {
+									gasName: "mekanism:hydrogen",
+									amount: 24000
+								}
+							}]
+						}
+					}
 				}
-			]
+			}]
 		}
 	]
 }

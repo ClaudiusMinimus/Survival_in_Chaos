@@ -79,20 +79,6 @@
 			}]
 		},
 		{
-			x: 3.5d,
-			y: -4.0d,
-			id: 584,
-			tasks: [{
-				id: 585,
-				type: "item",
-				item: {
-					id: "cyclic:cable_wrench",
-					Count: 1,
-					tag: {}
-				}
-			}]
-		},
-		{
 			x: -5.0d,
 			y: -0.5d,
 			shape: "diamond",

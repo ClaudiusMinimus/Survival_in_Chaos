@@ -423,14 +423,7 @@
 			}],
 			rewards: [{
 				id: 1258,
-				type: "item",
-				item: {
-					id: "midnight:ebonite_axe",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -972,14 +965,21 @@
 				type: "item",
 				item: "quantumstorage:chestgold"
 			}],
-			rewards: [{
-				id: 1250,
-				type: "item",
-				item: {
-					id: "minecraft:slime_block",
-					Count: 4
+			rewards: [
+				{
+					id: 1250,
+					type: "item",
+					item: {
+						id: "minecraft:slime_block",
+						Count: 4
+					}
+				},
+				{
+					id: 1405,
+					type: "item",
+					item: "cyclic:heart"
 				}
-			}]
+			]
 		},
 		{
 			x: -6.0d,

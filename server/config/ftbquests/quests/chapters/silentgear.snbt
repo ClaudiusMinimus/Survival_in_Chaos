@@ -96,134 +96,6 @@
 	},
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			dependencies: [I;
-				16,
-				143
-			],
-			id: 54,
-			tasks: [{
-				id: 55,
-				type: "item",
-				item: "silentgear:crafting_station"
-			}],
-			rewards: [
-				{
-					id: 56,
-					type: "item",
-					item: {
-						id: "silentgear:blueprint_paper",
-						Count: 32
-					}
-				},
-				{
-					id: 785,
-					type: "item",
-					item: {
-						id: "xreliquary:glowing_bread",
-						Count: 8
-					}
-				},
-				{
-					id: 1316,
-					type: "item",
-					item: {
-						id: "silentgems:hardened_netherrack",
-						Count: 8
-					}
-				}
-			]
-		},
-		{
-			x: 0.0d,
-			y: 0.0d,
-			id: 121,
-			tasks: [{
-				id: 122,
-				type: "item",
-				item: {
-					id: "silentgear:pickaxe",
-					Count: 1,
-					tag: {
-						SGear_UUIDLeast: -4956950156972874450L,
-						SGear_UUIDMost: 8651345597292760256L,
-						Damage: 0,
-						SGear_Data: {
-							Construction: {
-								Parts: [
-									{
-										Item: {
-											id: "minecraft:cobblestone",
-											Count: 1
-										},
-										ID: "silentgear:main/stone"
-									},
-									{
-										Item: {
-											id: "minecraft:cobblestone",
-											Count: 1
-										},
-										ID: "silentgear:main/stone"
-									},
-									{
-										Item: {
-											id: "minecraft:cobblestone",
-											Count: 1
-										},
-										ID: "silentgear:main/stone"
-									},
-									{
-										Item: {
-											id: "minecraft:stick",
-											Count: 1
-										},
-										ID: "silentgear:rod/wood"
-									}
-								]
-							},
-							ModelKeys: {
-								0: "pickaxe|0|0"
-							},
-							Properties: {
-								repair_efficiency: 1.0f,
-								synergy: 1.0f,
-								magic_armor: 0.0f,
-								durability: 131.0f,
-								armor_durability: 5.0f,
-								attack_speed: -2.8f,
-								ranged_damage: 0.0f,
-								ranged_speed: -0.22000001f,
-								harvest_speed: 4.0f,
-								armor_toughness: 0.0f,
-								LockStats: 0,
-								Traits: [
-									{
-										Level: 1,
-										Name: "silentgear:brittle"
-									},
-									{
-										Level: 1,
-										Name: "silentgear:ancient"
-									}
-								],
-								enchantability: 5.5f,
-								armor: 5.0f,
-								melee_damage: 2.0f,
-								chargeability: 0.5f,
-								harvest_level: 1.0f,
-								magic_damage: 0.0f,
-								rarity: 5.0f
-							},
-							Rendering: {
-								BlendedHeadColor: 10132122
-							}
-						}
-					}
-				}
-			}]
-		},
-		{
 			title: "We Three Tools",
 			x: -1.5d,
 			y: -1.5d,
@@ -484,7 +356,7 @@
 			x: 1.5d,
 			y: 0.0d,
 			description: ["Make a Bow blueprint and a Bow using three Garnets, a stick, and a Bow String. Your reward will be a Blaze Rod and Sinew Bow String. Place your Bow, the Blaze Rod and Sinew Bow String in a crafting grid to upgrade your new Bow."],
-			dependencies: [I;54],
+			dependencies: [I;1366],
 			id: 134,
 			tasks: [
 				{
@@ -1004,7 +876,7 @@
 				"",
 				"Your reward will be six enchantment tokens and a piece of red wool. Apply these items to the pickaxe in your crafting grid one-at-time to greatly increase your pick's efficiency and provide mending."
 			],
-			dependencies: [I;54],
+			dependencies: [I;1366],
 			id: 146,
 			tasks: [{
 				id: 147,
@@ -1130,7 +1002,7 @@
 			x: 1.5d,
 			y: 1.5d,
 			description: ["The Token Enchanter can replace Enchantment books, though it does come with a price of creating Chaos."],
-			dependencies: [I;54],
+			dependencies: [I;1366],
 			id: 171,
 			tasks: [{
 				id: 172,
@@ -1156,7 +1028,7 @@
 		{
 			x: 0.0d,
 			y: -1.5d,
-			dependencies: [I;54],
+			dependencies: [I;1366],
 			id: 1273,
 			tasks: [{
 				id: 1274,
@@ -1188,7 +1060,7 @@
 		{
 			x: 1.5d,
 			y: -1.5d,
-			dependencies: [I;54],
+			dependencies: [I;1366],
 			id: 1275,
 			tasks: [
 				{
@@ -1230,7 +1102,16 @@
 				{
 					id: 1299,
 					type: "item",
-					item: "wtbw_core:blaze_block"
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 4,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:protection"
+							}]
+						}
+					}
 				}
 			]
 		},
@@ -1255,6 +1136,35 @@
 					type: "item",
 					item: {
 						id: "solarflux:efficiency_upgrade",
+						Count: 8
+					}
+				}
+			]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: [I;143],
+			id: 1366,
+			tasks: [{
+				id: 1367,
+				type: "item",
+				item: "silentgear:crafting_station"
+			}],
+			rewards: [
+				{
+					id: 1368,
+					type: "item",
+					item: {
+						id: "silentgear:blueprint_paper",
+						Count: 32
+					}
+				},
+				{
+					id: 1369,
+					type: "item",
+					item: {
+						id: "xreliquary:glowing_bread",
 						Count: 8
 					}
 				}

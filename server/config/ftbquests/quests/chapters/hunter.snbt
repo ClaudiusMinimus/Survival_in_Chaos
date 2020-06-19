@@ -23,14 +23,30 @@
 				entity: "minecraft:skeleton",
 				value: 10
 			}],
-			rewards: [{
-				id: 69,
-				type: "item",
-				item: {
-					id: "minecraft:chicken_spawn_egg",
-					Count: 4
+			rewards: [
+				{
+					id: 69,
+					type: "item",
+					item: {
+						id: "minecraft:chicken_spawn_egg",
+						Count: 4
+					}
+				},
+				{
+					id: 1384,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:multishot"
+							}]
+						}
+					}
 				}
-			}]
+			]
 		},
 		{
 			icon: "minecraft:skeleton_skull",
@@ -46,20 +62,36 @@
 				entity: "minecraft:skeleton",
 				value: 100
 			}],
-			rewards: [{
-				id: 70,
-				type: "item",
-				item: {
-					id: "silentgems:enchantment_token",
-					Count: 2,
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1,
-							id: "minecraft:smite"
-						}]
+			rewards: [
+				{
+					id: 70,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 2,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "minecraft:smite"
+							}]
+						}
+					}
+				},
+				{
+					id: 1383,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "apotheosis:true_infinity"
+							}]
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			x: 3.0d,
@@ -120,14 +152,30 @@
 				entity: "minecraft:zombie",
 				value: 10
 			}],
-			rewards: [{
-				id: 83,
-				type: "item",
-				item: {
-					id: "minecraft:pig_spawn_egg",
-					Count: 4
+			rewards: [
+				{
+					id: 83,
+					type: "item",
+					item: {
+						id: "minecraft:pig_spawn_egg",
+						Count: 4
+					}
+				},
+				{
+					id: 1385,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "ensorcellation:quick_draw"
+							}]
+						}
+					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Apprentice Zombie Hunter",
@@ -216,14 +264,30 @@
 				entity: "minecraft:spider",
 				value: 10
 			}],
-			rewards: [{
-				id: 530,
-				type: "item",
-				item: {
-					id: "minecraft:cow_spawn_egg",
-					Count: 4
+			rewards: [
+				{
+					id: 530,
+					type: "item",
+					item: {
+						id: "minecraft:cow_spawn_egg",
+						Count: 4
+					}
+				},
+				{
+					id: 1386,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "cyclic:quickshot"
+							}]
+						}
+					}
 				}
-			}]
+			]
 		},
 		{
 			x: 1.5d,
@@ -309,14 +373,30 @@
 				entity: "minecraft:creeper",
 				value: 10
 			}],
-			rewards: [{
-				id: 531,
-				type: "item",
-				item: {
-					id: "minecraft:sheep_spawn_egg",
-					Count: 4
+			rewards: [
+				{
+					id: 531,
+					type: "item",
+					item: {
+						id: "minecraft:sheep_spawn_egg",
+						Count: 4
+					}
+				},
+				{
+					id: 1387,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "ensorcellation:quick_draw"
+							}]
+						}
+					}
 				}
-			}]
+			]
 		},
 		{
 			x: 1.5d,
@@ -393,17 +473,33 @@
 				entity: "minecraft:wither_skeleton",
 				value: 10
 			}],
-			rewards: [{
-				id: 529,
-				type: "item",
-				item: {
-					id: "cyclic:charm_wither",
-					Count: 1,
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: 529,
+					type: "item",
+					item: {
+						id: "cyclic:charm_wither",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1389,
+					type: "item",
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "cyclic:quickshot"
+							}]
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			x: -3.0d,
@@ -503,9 +599,18 @@
 					}
 				},
 				{
-					id: 536,
+					id: 1388,
 					type: "item",
-					item: "gobber2:block_healer"
+					item: {
+						id: "silentgems:enchantment_token",
+						Count: 1,
+						tag: {
+							TokenEnchantments: [{
+								lvl: 1,
+								id: "ensorcellation:quick_draw"
+							}]
+						}
+					}
 				}
 			]
 		},
@@ -525,11 +630,8 @@
 					id: 532,
 					type: "item",
 					item: {
-						id: "cyclic:boomerang_stun",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
+						id: "minecraft:chicken_spawn_egg",
+						Count: 4
 					}
 				},
 				{
@@ -841,55 +943,30 @@
 		{
 			x: -8.0d,
 			y: -1.0d,
-			dependencies: [I;
-				1002,
-				996,
-				158,
-				113
-			],
 			id: 1118,
 			tasks: [{
 				id: 1119,
 				type: "kill",
 				title: "Wither Slayer",
-				icon: "mysticalagradditions:withering_soul",
+				icon: "minecraft:nether_star",
 				entity: "minecraft:wither",
 				value: 10
 			}],
-			rewards: [
-				{
-					id: 1125,
-					type: "item",
-					item: {
-						id: "gobber2:gobber2_helmet_dragon",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: 1126,
-					type: "item",
-					item: {
-						id: "gobber2:gobber2_chestplate_dragon",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: 1126,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_chestplate_dragon",
+					Count: 1,
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		},
 		{
 			x: 6.5d,
 			y: -1.0d,
-			dependencies: [I;
-				67,
-				81,
-				93,
-				103
-			],
 			id: 1120,
 			tasks: [{
 				id: 1121,
@@ -899,30 +976,62 @@
 				entity: "minecraft:ender_dragon",
 				value: 10
 			}],
-			rewards: [
-				{
-					id: 1127,
-					type: "item",
-					item: {
-						id: "gobber2:gobber2_leggings_dragon",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: 1128,
-					type: "item",
-					item: {
-						id: "gobber2:gobber2_boots_dragon",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: 1127,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_leggings_dragon",
+					Count: 1,
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
+		},
+		{
+			icon: "minecraft:sea_lantern",
+			x: -3.5d,
+			y: -5.5d,
+			id: 1406,
+			tasks: [{
+				id: 1407,
+				type: "kill",
+				entity: "minecraft:elder_guardian",
+				value: 10
+			}],
+			rewards: [{
+				id: 1411,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_helmet_dragon",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.5d,
+			id: 1408,
+			tasks: [{
+				id: 1409,
+				type: "kill",
+				entity: "farlanders:ender_guardian",
+				value: 1
+			}],
+			rewards: [{
+				id: 1410,
+				type: "item",
+				item: {
+					id: "gobber2:gobber2_boots_dragon",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }
