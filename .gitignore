@@ -41,6 +41,7 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 server/.mixin.out/*
 server/backup/*
+server/config/defaultoptions/*
 server/journeymap/*
 server/logs/*
 server/mods/*
@@ -60,6 +61,7 @@ instance.cfg
 *.code-workspace
 *.disabled
 *.pdat
+*_0.*
 
 # Do not ignore these directories
 !minecraft/defaultworldtype
@@ -77,4 +79,4 @@ instance.cfg
 !minecraft/config/packmenu.cfg
 !minecraft/config/serverutils/kits/Starter.json
 !mmc-pack.json
-minecraft/config/serverutils/permissions.json
+!minecraft/config/roughmobsrevamped/features.toml

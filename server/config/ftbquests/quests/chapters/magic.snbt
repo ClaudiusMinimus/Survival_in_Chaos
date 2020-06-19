@@ -1,0 +1,181 @@
+{
+	id: 1404,
+	filename: "magic",
+	order_index: 9,
+	title: "Magic",
+	icon: "disenchanting:disenchanter",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: 1412,
+			tasks: [{
+				id: 1413,
+				type: "item",
+				item: "botania:lexicon"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -2.0d,
+			dependencies: [I;1412],
+			id: 1414,
+			tasks: [{
+				id: 1415,
+				type: "item",
+				item: "botania:apothecary_default"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.5d,
+			dependencies: [I;1414],
+			id: 1416,
+			tasks: [{
+				id: 1417,
+				type: "item",
+				item: "botania:pure_daisy",
+				count: 2
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1418,
+			tasks: [{
+				id: 1419,
+				type: "item",
+				item: "botania:livingwood",
+				count: 16
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -5.0d,
+			dependencies: [I;1416],
+			id: 1420,
+			tasks: [{
+				id: 1421,
+				type: "item",
+				item: "botania:livingrock",
+				count: 16
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -5.0d,
+			dependencies: [I;1418],
+			id: 1422,
+			tasks: [{
+				id: 1423,
+				type: "item",
+				item: "botania:mana_spreader"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -8.0d,
+			dependencies: [I;1426],
+			id: 1424,
+			tasks: [{
+				id: 1425,
+				type: "item",
+				item: "botania:mana_distributor"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -6.5d,
+			dependencies: [I;1420],
+			id: 1426,
+			tasks: [{
+				id: 1427,
+				type: "item",
+				item: "botania:mana_pool"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			dependencies: [I;1412],
+			id: 1428,
+			tasks: [{
+				id: 1429,
+				type: "item",
+				item: "botania:fertilizer",
+				count: 4
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: [I;1412],
+			id: 1430,
+			tasks: [{
+				id: 1431,
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: []
+					},
+					id: "botania:flower_bag",
+					Count: 1
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.5d,
+			dependencies: [I;1418],
+			id: 1432,
+			tasks: [{
+				id: 1433,
+				type: "item",
+				item: {
+					id: "botania:twig_wand",
+					Count: 1,
+					tag: {
+						color1: 6,
+						color2: 2,
+						boundTileZ: 0,
+						boundTileX: 0,
+						boundTileY: -1,
+						bindMode: 1
+					}
+				}
+			}]
+		},
+		{
+			x: -9.0d,
+			y: 0.0d,
+			id: 1434,
+			tasks: [{
+				id: 1435,
+				type: "item",
+				item: "disenchanting:disenchanter"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.0d,
+			id: 1436,
+			tasks: [{
+				id: 1437,
+				type: "item",
+				item: "botania:endoflame",
+				count: 4
+			}],
+			rewards: [{
+				id: 1438,
+				type: "item",
+				item: {
+					id: "botania:endoflame",
+					Count: 4
+				}
+			}]
+		}
+	]
+}
