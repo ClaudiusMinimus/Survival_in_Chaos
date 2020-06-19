@@ -40,6 +40,7 @@ minecraft/usercache.json
 minecraft/usernamecache.json
 server/.mixin.out/*
 server/backup/*
+server/config/defaultoptions/*
 server/journeymap/*
 server/logs/*
 server/mods/*
