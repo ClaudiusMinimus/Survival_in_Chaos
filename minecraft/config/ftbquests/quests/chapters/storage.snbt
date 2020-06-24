@@ -145,11 +145,7 @@
 			}],
 			rewards: [{
 				id: 1374,
-				type: "item",
-				item: {
-					id: "aquaculture:box",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -164,11 +160,7 @@
 			}],
 			rewards: [{
 				id: 1371,
-				type: "item",
-				item: {
-					id: "aquaculture:box",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -183,11 +175,7 @@
 			}],
 			rewards: [{
 				id: 1376,
-				type: "item",
-				item: {
-					id: "aquaculture:lockbox",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -278,11 +266,7 @@
 			}],
 			rewards: [{
 				id: 1372,
-				type: "item",
-				item: {
-					id: "aquaculture:box",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -297,11 +281,7 @@
 			}],
 			rewards: [{
 				id: 1375,
-				type: "item",
-				item: {
-					id: "aquaculture:box",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -316,11 +296,7 @@
 			}],
 			rewards: [{
 				id: 1370,
-				type: "item",
-				item: {
-					id: "aquaculture:box",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -335,11 +311,7 @@
 			}],
 			rewards: [{
 				id: 1378,
-				type: "item",
-				item: {
-					id: "aquaculture:lockbox",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -1606,11 +1578,7 @@
 			}],
 			rewards: [{
 				id: 1380,
-				type: "item",
-				item: {
-					id: "aquaculture:treasure_chest",
-					Count: 4
-				}
+				type: "item"
 			}]
 		},
 		{
@@ -1664,14 +1632,7 @@
 			}],
 			rewards: [{
 				id: 1247,
-				type: "item",
-				item: {
-					id: "aquaculture:neptunium_fishing_rod",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{

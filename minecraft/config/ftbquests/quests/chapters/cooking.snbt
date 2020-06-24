@@ -188,14 +188,7 @@
 				},
 				{
 					id: 949,
-					type: "item",
-					item: {
-						id: "aquaculture:iron_fillet_knife",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
-					}
+					type: "item"
 				}
 			]
 		},
@@ -437,66 +430,6 @@
 				id: 1344,
 				type: "item",
 				item: "silentgear:quartz_tipped_upgrade"
-			}]
-		},
-		{
-			x: -7.5d,
-			y: 0.5d,
-			id: 982,
-			tasks: [{
-				id: 983,
-				type: "item",
-				item: "aquaculture:fish_fillet_cooked"
-			}],
-			rewards: [{
-				id: 1357,
-				type: "xp",
-				xp: 50
-			}]
-		},
-		{
-			x: -6.5d,
-			y: 0.5d,
-			id: 984,
-			tasks: [{
-				id: 985,
-				type: "item",
-				item: "aquaculture:turtle_soup"
-			}],
-			rewards: [{
-				id: 1358,
-				type: "xp",
-				xp: 50
-			}]
-		},
-		{
-			x: -5.5d,
-			y: 0.5d,
-			id: 986,
-			tasks: [{
-				id: 987,
-				type: "item",
-				item: "aquaculture:frog_legs_cooked"
-			}],
-			rewards: [{
-				id: 1359,
-				type: "xp",
-				xp: 50
-			}]
-		},
-		{
-			x: -4.5d,
-			y: 0.5d,
-			id: 988,
-			tasks: [{
-				id: 989,
-				type: "item",
-				item: "aquaculture:sushi"
-			}],
-			rewards: [{
-				id: 1360,
-				type: "xp",
-				xp: 50
 			}]
 		}
 	]
