@@ -42,11 +42,11 @@
 	#
 	# What corner blocks should we use to make a portal frame instead of Polish Granite?
 	# Example entry: minecraft:polish_granite
-	portalCornerBlocks = "gobber2:gobber2_block_end"
+	portalCornerBlocks = "minecraft:polished_granite"
 	#
 	# What ceiling blocks should we use to make a portal frame instead of Polish Andesite Slab?
-	# Example entry: minecraft:polish_andesite
-	portalCeilingBlocks = "forbidden_arcanus:arcane_base_block_slab"
+	# Example entry: minecraft:polished_andesite_slab
+	portalCeilingBlocks = "minecraft:polished_andesite_slab"
 	#
 	# Adds very heavy fog to make the world look more spoky and limit visibility.
 	# This is not the same as distance fog which does not make chunks near you foggy.
@@ -61,8 +61,8 @@
 	forceExitToOverworld = false
 	#
 	# What floor blocks should we use to make a portal frame instead of Polish Andesite Slab?
-	# Example entry: minecraft:polish_andesite
-	portalFloorBlocks = "forbidden_arcanus:arcane_base_block_slab"
+	# Example entry: minecraft:polished_andesite_slab
+	portalFloorBlocks = "minecraft:polished_andesite_slab"
 
 ["Terrain Options"]
 	#

@@ -21,4 +21,4 @@
 	#does cursed earth naturally spread
 	"naturally spread" = true
 	#mobs to blacklist
-	"blacklist" = "rats:pied_piper"
+	"Mob blacklist" = "rats:pied_piper"

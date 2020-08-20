@@ -1123,18 +1123,18 @@
 				type: "item",
 				item: "refinedstorage:1k_storage_part"
 			}],
-			rewards: [{
-				id: 1183,
-				type: "item",
-				item: {
-					id: "refinedstorage:1k_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 6074673533522956027L,
-						IdLeast: -4794860127549109242L
-					}
+			rewards: [
+				{
+					id: 1183,
+					type: "item",
+					item: "refinedstorage:1k_storage_part"
+				},
+				{
+					id: 1443,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: -1.0d,
@@ -1146,18 +1146,18 @@
 				type: "item",
 				item: "refinedstorage:4k_storage_part"
 			}],
-			rewards: [{
-				id: 1184,
-				type: "item",
-				item: {
-					id: "refinedstorage:4k_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 484726634022126250L,
-						IdLeast: -6982793828683124383L
-					}
+			rewards: [
+				{
+					id: 1184,
+					type: "item",
+					item: "refinedstorage:4k_storage_part"
+				},
+				{
+					id: 1444,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: -1.0d,
@@ -1169,18 +1169,18 @@
 				type: "item",
 				item: "refinedstorage:16k_storage_part"
 			}],
-			rewards: [{
-				id: 1185,
-				type: "item",
-				item: {
-					id: "refinedstorage:16k_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: -8823101873654315274L,
-						IdLeast: -5969694340232546328L
-					}
+			rewards: [
+				{
+					id: 1185,
+					type: "item",
+					item: "refinedstorage:16k_storage_part"
+				},
+				{
+					id: 1445,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: -1.0d,
@@ -1192,18 +1192,18 @@
 				type: "item",
 				item: "refinedstorage:64k_storage_part"
 			}],
-			rewards: [{
-				id: 1186,
-				type: "item",
-				item: {
-					id: "refinedstorage:64k_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 3723147626592289004L,
-						IdLeast: -7621912238885375215L
-					}
+			rewards: [
+				{
+					id: 1186,
+					type: "item",
+					item: "refinedstorage:64k_storage_part"
+				},
+				{
+					id: 1446,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: 1.0d,
@@ -1215,18 +1215,18 @@
 				type: "item",
 				item: "refinedstorage:64k_fluid_storage_part"
 			}],
-			rewards: [{
-				id: 1187,
-				type: "item",
-				item: {
-					id: "refinedstorage:64k_fluid_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 7986862487827137808L,
-						IdLeast: -5245719560172817823L
-					}
+			rewards: [
+				{
+					id: 1187,
+					type: "item",
+					item: "refinedstorage:64k_fluid_storage_part"
+				},
+				{
+					id: 1447,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: 1.0d,
@@ -1238,18 +1238,18 @@
 				type: "item",
 				item: "refinedstorage:256k_fluid_storage_part"
 			}],
-			rewards: [{
-				id: 1188,
-				type: "item",
-				item: {
-					id: "refinedstorage:256k_fluid_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 4672394967674209255L,
-						IdLeast: -6487504244167684068L
-					}
+			rewards: [
+				{
+					id: 1188,
+					type: "item",
+					item: "refinedstorage:256k_fluid_storage_part"
+				},
+				{
+					id: 1448,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: 1.0d,
@@ -1261,18 +1261,18 @@
 				type: "item",
 				item: "refinedstorage:1024k_fluid_storage_part"
 			}],
-			rewards: [{
-				id: 1189,
-				type: "item",
-				item: {
-					id: "refinedstorage:1024k_fluid_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: -1159732369380258942L,
-						IdLeast: -9035384248014573426L
-					}
+			rewards: [
+				{
+					id: 1189,
+					type: "item",
+					item: "refinedstorage:1024k_fluid_storage_part"
+				},
+				{
+					id: 1449,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: 1.0d,
@@ -1284,18 +1284,18 @@
 				type: "item",
 				item: "refinedstorage:4096k_fluid_storage_part"
 			}],
-			rewards: [{
-				id: 1190,
-				type: "item",
-				item: {
-					id: "refinedstorage:4096k_fluid_storage_disk",
-					Count: 1,
-					tag: {
-						IdMost: 3586805586220892769L,
-						IdLeast: -7584711102751753541L
-					}
+			rewards: [
+				{
+					id: 1190,
+					type: "item",
+					item: "refinedstorage:4096k_fluid_storage_part"
+				},
+				{
+					id: 1450,
+					type: "item",
+					item: "refinedstorage:storage_housing"
 				}
-			}]
+			]
 		},
 		{
 			x: 0.0d,

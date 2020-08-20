@@ -88,7 +88,19 @@
 				id: 916,
 				type: "item",
 				item: "industrialforegoing:fluid_extractor"
-			}]
+			}],
+			rewards: [
+				{
+					id: 1439,
+					type: "item",
+					item: "industrialforegoing:latex_bucket"
+				},
+				{
+					id: 1441,
+					type: "item",
+					item: "industrialforegoing:fluid_extractor"
+				}
+			]
 		},
 		{
 			x: -5.0d,
@@ -99,6 +111,14 @@
 				id: 918,
 				type: "item",
 				item: "industrialforegoing:latex_processing_unit"
+			}],
+			rewards: [{
+				id: 1454,
+				type: "item",
+				item: {
+					id: "tp:glowstone_glass",
+					Count: 16
+				}
 			}]
 		},
 		{

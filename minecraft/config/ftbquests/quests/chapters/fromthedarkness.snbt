@@ -453,13 +453,7 @@
 				{
 					id: 1283,
 					type: "item",
-					item: {
-						id: "farlanders:mystic_wand_fire_small",
-						Count: 1,
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "xreliquary:fertile_lily_pad"
 				}
 			]
 		},
@@ -652,6 +646,23 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: [I;30],
+			id: 1480,
+			tasks: [{
+				id: 1481,
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 24
+			}],
+			rewards: [{
+				id: 1482,
+				type: "item",
+				item: "tp:stone_hammer"
 			}]
 		}
 	]

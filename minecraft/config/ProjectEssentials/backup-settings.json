@@ -1,0 +1,17 @@
+{
+    "backupEnabled": true,
+    "firstLaunchDelay": true,
+    "backupConfigurations": true,
+    "backupCreationDelay": 300,
+    "backupCompressionLevel": 3,
+    "backupDirectoryPath": "backup",
+    "backupDateFormat": "yyyy-MM-dd_HH.mm.ss",
+    "maxBackupFiles": 10,
+    "rollingBackupFilesEnabled": true,
+    "notifyPlayersAboutBackup": false,
+    "purgeBackupOutDirectory": true,
+    "purgeExtensionsExceptions": [
+    ],
+    "purgeNamesExceptions": [
+    ]
+}

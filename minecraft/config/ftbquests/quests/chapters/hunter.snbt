@@ -758,8 +758,8 @@
 					id: 894,
 					type: "item",
 					item: {
-						id: "darkutils:vector_plate",
-						Count: 32
+						id: "darkutils:vector_plate_fast",
+						Count: 36
 					}
 				},
 				{
@@ -1030,6 +1030,27 @@
 					tag: {
 						Damage: 0
 					}
+				}
+			}]
+		},
+		{
+			icon: "botania:life_essence",
+			x: -8.0d,
+			y: -4.5d,
+			id: 1451,
+			tasks: [{
+				id: 1452,
+				type: "kill",
+				icon: "botania:life_essence",
+				entity: "botania:doppleganger",
+				value: 1
+			}],
+			rewards: [{
+				id: 1453,
+				type: "item",
+				item: {
+					id: "botania:terrasteel_block",
+					Count: 10
 				}
 			}]
 		}

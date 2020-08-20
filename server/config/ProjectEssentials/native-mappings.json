@@ -1,0 +1,39 @@
+{
+    "comment": "That is configuration still in experimental state! Something may work unstable.",
+    "permissions": {
+        "_comment": "Hello there! You can change permissions mappings there, in format \"command\":\"node@op-level\". By removing command there, Project Essentials will generate permissions node automatically bases on command name, for command advancements will generated permissions `native.advancements` with op level provided in `https://minecraft.gamepedia.com/Commands`.",
+        "ban": "native.moderation.ban@3",
+        "ban-ip": "native.moderation.banip@3",
+        "banlist": "native.moderation.banlist@3",
+        "pardon": "native.moderation.pardon@3",
+        "pardon-ip": "native.moderation.pardonip@3",
+        "kick": "native.moderation.kick@3",
+        "deop": "native.stuff.operator.remove@3",
+        "op": "native.stuff.operator.add@3",
+        "me": "native.messaging.me@0",
+        "message": "native.messaging.message@0",
+        "teammsg": "native.messaging.teammsg@0",
+        "playsound": "native.sound.play@2",
+        "stopsound": "native.sound.stop@2",
+        "reload": "native.server.reload@2",
+        "stop": "native.server.stop@4",
+        "save-off": "native.save.off@4",
+        "save-on": "native.save.on@4",
+        "say": "native.messaging.say@1"
+    },
+    "aliases": {
+        "_comment": "There are command aliases, leave this empty if you want commands without aliases, if you want many aliases, enumerate that with `,`.",
+        "clear": "ci",
+        "list": "online",
+        "locate": "find,where",
+        "pardon": "unban",
+        "gamerule": "gr",
+        "summon": "spawnmob",
+        "pardonip": "unbanip",
+        "sun": "weatherclear,clearsky,sky",
+        "thunder": "storm,goodweather",
+        "noon": "midday,noonday",
+        "sunset": "dusk,sundown,evening",
+        "sunrise": "dawn,morning,morn"
+    }
+}
