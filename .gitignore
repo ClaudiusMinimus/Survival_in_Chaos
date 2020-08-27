@@ -83,3 +83,4 @@ instance.cfg
 server/eula.txt
 server/forge.jar
 server/minecraft_server.1.15.2.jar
+*.properties
