@@ -8,6 +8,7 @@ minecraft/ct_dumps/*
 minecraft/journeymap/*
 minecraft/local/*
 minecraft/logs/*
+minecraft/mods/*
 minecraft/natives/*
 #minecraft/resourcepacks/*
 minecraft/saves/*
@@ -17,6 +18,7 @@ minecraft/XaeroWaypoints/*
 natives/*
 server/config/*
 server/crash-reports/*
+server/mods/*
 server/world/*
 
 # Ignore these files
@@ -27,7 +29,6 @@ minecraft/instance.json
 minecraft/docs/.~lock.*
 minecraft/instance.cfg
 minecraft/config/serverutils/permissions.json
-minecraft/mods/*
 minecraft/ops.json
 minecraft/options.txt
 minecraft/optionsof.txt
@@ -44,7 +45,6 @@ server/backup/*
 server/config/defaultoptions/*
 server/journeymap/*
 server/logs/*
-server/mods/*
 server/world*
 server/whitelist.json
 server/server.json
@@ -80,3 +80,6 @@ instance.cfg
 !minecraft/config/serverutils/kits/Starter.json
 !mmc-pack.json
 !minecraft/config/roughmobsrevamped/features.toml
+server/eula.txt
+server/forge.jar
+server/minecraft_server.1.15.2.jar
