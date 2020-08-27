@@ -16,10 +16,16 @@ minecraft/screenshots/*
 minecraft/XaeroWorldMap/*
 minecraft/XaeroWaypoints/*
 natives/*
+server/backup/*
 server/config/*
 server/crash-reports/*
+server/config/defaultoptions/*
+server/journeymap/*
+server/libraries/*
+server/logs/*
 server/mods/*
 server/world/*
+server/world*
 
 # Ignore these files
 minecraft/BotaniaVars.dat
@@ -41,11 +47,6 @@ minecraft/TrashSlotSaveState.json
 minecraft/usercache.json
 minecraft/usernamecache.json
 server/.mixin.out/*
-server/backup/*
-server/config/defaultoptions/*
-server/journeymap/*
-server/logs/*
-server/world*
 server/whitelist.json
 server/server.json
 server/mods_0.1.tar.gz
