@@ -144,8 +144,9 @@
 				item: "storagenetwork:storage_kabel"
 			}],
 			rewards: [{
-				id: 1374,
-				type: "item"
+				id: 1491,
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -159,8 +160,9 @@
 				item: "storagenetwork:import_kabel"
 			}],
 			rewards: [{
-				id: 1371,
-				type: "item"
+				id: 1493,
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -174,8 +176,9 @@
 				item: "storagenetwork:inventory"
 			}],
 			rewards: [{
-				id: 1376,
-				type: "item"
+				id: 1490,
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -265,8 +268,9 @@
 				item: "storagenetwork:import_filter_kabel"
 			}],
 			rewards: [{
-				id: 1372,
-				type: "item"
+				id: 1494,
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -280,8 +284,9 @@
 				item: "storagenetwork:filter_kabel"
 			}],
 			rewards: [{
-				id: 1375,
-				type: "item"
+				id: 1492,
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -295,42 +300,9 @@
 				item: "storagenetwork:export_kabel"
 			}],
 			rewards: [{
-				id: 1370,
-				type: "item"
-			}]
-		},
-		{
-			x: -7.5d,
-			y: 1.5d,
-			dependencies: [I;455],
-			id: 477,
-			tasks: [{
-				id: 478,
-				type: "item",
-				item: "storagenetwork:speed_upgrade"
-			}],
-			rewards: [{
-				id: 1378,
-				type: "item"
-			}]
-		},
-		{
-			x: -4.5d,
-			y: 1.5d,
-			dependencies: [I;455],
-			id: 479,
-			tasks: [{
-				id: 480,
-				type: "item",
-				item: "storagenetwork:stack_upgrade"
-			}],
-			rewards: [{
-				id: 1379,
-				type: "item",
-				item: {
-					id: "additional_lights:standing_torch_s_smooth_stone",
-					Count: 4
-				}
+				id: 1489,
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -908,106 +880,6 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: 4.5d,
-			shape: "diamond",
-			size: 1.5d,
-			id: 896,
-			tasks: [{
-				id: 897,
-				type: "item",
-				item: "quantumstorage:chestiron"
-			}],
-			rewards: [{
-				id: 1248,
-				type: "item",
-				item: {
-					id: "simplefarming:beef_and_broccoli",
-					Count: 8
-				}
-			}]
-		},
-		{
-			x: -6.0d,
-			y: 6.0d,
-			dependencies: [I;896],
-			id: 898,
-			tasks: [{
-				id: 899,
-				type: "item",
-				item: "quantumstorage:chestgold"
-			}],
-			rewards: [
-				{
-					id: 1250,
-					type: "item",
-					item: {
-						id: "minecraft:slime_block",
-						Count: 4
-					}
-				},
-				{
-					id: 1405,
-					type: "item",
-					item: "cyclic:heart"
-				}
-			]
-		},
-		{
-			x: -6.0d,
-			y: 7.5d,
-			dependencies: [I;898],
-			id: 900,
-			tasks: [{
-				id: 901,
-				type: "item",
-				item: "quantumstorage:chestdiamond"
-			}],
-			rewards: [{
-				id: 1249,
-				type: "item",
-				item: {
-					id: "minecraft:ghast_tear",
-					Count: 8
-				}
-			}]
-		},
-		{
-			x: -4.5d,
-			y: 4.5d,
-			dependencies: [I;896],
-			id: 902,
-			tasks: [{
-				id: 903,
-				type: "item",
-				item: "quantumstorage:qsu"
-			}],
-			rewards: [{
-				id: 1252,
-				type: "item",
-				item: "silentgems:gem_bag"
-			}]
-		},
-		{
-			x: -7.5d,
-			y: 4.5d,
-			dependencies: [I;896],
-			id: 904,
-			tasks: [{
-				id: 905,
-				type: "item",
-				item: "quantumstorage:trashcan"
-			}],
-			rewards: [{
-				id: 1251,
-				type: "item",
-				item: {
-					id: "simplefarming:spinach_mushroom_quiche",
-					Count: 8
-				}
-			}]
-		},
-		{
 			x: -1.0d,
 			y: -7.5d,
 			dependencies: [I;444],
@@ -1019,14 +891,7 @@
 			}],
 			rewards: [{
 				id: 1142,
-				type: "item",
-				item: {
-					id: "farlanders:mystic_wand_fire_large",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
+				type: "item"
 			}]
 		},
 		{

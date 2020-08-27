@@ -11,15 +11,7 @@ customization {
 }
 
 customization {
-  identifier = %id=2%
-  orientation = top-left
-  x = 24
-  action = movebutton
-  y = 80
-}
-
-customization {
-  identifier = %id=3%
+  identifier = %id=400322%
   orientation = top-left
   x = 24
   action = movebutton
@@ -27,86 +19,73 @@ customization {
 }
 
 customization {
-  identifier = %id=4%
+  identifier = %id=604382%
+  orientation = top-left
+  x = 73
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=400382%
   orientation = top-left
   x = 24
-  action = movebutton
-  y = 180
-}
-
-customization {
-  identifier = %id=5%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=6%
-  orientation = top-left
-  x = 24
-  action = movebutton
-  y = 130
-}
-
-customization {
-  identifier = %id=6%
-  width = 98
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=7%
-  orientation = top-left
-  x = 75
-  action = movebutton
-  y = 180
-}
-
-customization {
-  identifier = %id=8%
-  orientation = top-left
-  x = 50
-  action = movebutton
-  y = 180
-}
-
-customization {
-  identifier = %id=9%
-  orientation = top-left
-  x = 128
-  action = movebutton
-  y = 130
-}
-
-customization {
-  identifier = %id=9%
-  width = 97
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=10%
-  orientation = top-left
-  x = 128
   action = movebutton
   y = 155
 }
 
 customization {
-  identifier = %id=10%
-  width = 97
-  action = resizebutton
-  height = 20
+  identifier = %id=502382%
+  orientation = top-left
+  x = 126
+  action = movebutton
+  y = 155
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 49
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 80
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 130
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 24
+  action = movebutton
+  y = 180
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
-  x = 24
+  x = 126
   width = 98
   action = addbutton
-  y = 155
+  y = 130
   label = Discord
   value = https://discord.gg/jXrx4Tu
   height = 20

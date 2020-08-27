@@ -6,8 +6,6 @@
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
-craftingTable.removeRecipe(<item:angelring:itemdiamondring>);
-craftingTable.removeRecipe(<item:angelring:itemring>);
 
 //# recipe conflicts with tiny coal
 craftingTable.removeRecipe(<item:additional_lights:fire_for_standing_torch_s>);
@@ -31,18 +29,6 @@ craftingTable.addShapeless("craft_book_quill", <item:minecraft:writable_book>, [
 
 // ================================================================================
 //#MARKER ADD SHAPED
-craftingTable.addShaped("angel_ring_diamond", <item:angelring:itemdiamondring>, [
-        [<item:minecraft:diamond>, <item:minecraft:diamond_block>, <item:minecraft:diamond>], 
-        [<item:minecraft:diamond_block>, <item:minecraft:nether_star>, <item:minecraft:diamond_block>],
-        [<item:minecraft:diamond>, <item:minecraft:diamond_block>, <item:minecraft:diamond>]
-    ], null);
-
-craftingTable.addShaped("angel_ring", <item:angelring:itemring>, [
-        [<item:minecraft:feather>, <item:minecraft:gold_block>, <item:minecraft:feather>], 
-        [<item:minecraft:gold_block>, <item:angelring:itemdiamondring>, <item:minecraft:gold_block>],
-        [<item:minecraft:dragon_egg>, <item:minecraft:gold_block>, <item:minecraft:dragon_egg>]
-    ], null);
-
 
 craftingTable.addShaped("bamboo_from_sticks", <item:minecraft:bamboo>, [
         [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:air>], 

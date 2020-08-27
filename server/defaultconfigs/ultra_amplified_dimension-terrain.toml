@@ -1,0 +1,44 @@
+
+["Terrain Options"]
+	#
+	# Replace the water at sea level with lava instead. DO NOT CHANGE THIS OPTION IN AN ALREADY GENERATED DIMENSION. IT WILL CRASH DUE TO LAVA OCEAN UPDATING NEXT TO OCEAN WATER!!
+	lavaOcean = false
+	#
+	# Sea Level. Default is 75.
+	#Range: 0 ~ 250
+	seaLevel = 50
+	#
+	# Does something neat! Give it a try lol
+	# You might want to use this on a fresh new world...
+	# Changes the terrain's look!
+	secretSettings = false
+	#
+	# Maxium height the terrain can generate up to.
+	# Default is 245.
+	#Range: 100 ~ 2147483646
+	yMaximum = 160
+	#
+	# Changes the xz terrain scale.
+	# Not exactly sure what this does.
+	# Default value is 8.55515F
+	#Range: 1.0 ~ 1.0E7
+	xzScaleModifier = 8.555150032043457
+	#
+	# Changes the y terrain scale.
+	# Not exactly sure what this does.
+	# Default value is 428.613D
+	#Range: 1.0 ~ 1.0E7
+	yScaleModifier = 428.613
+	#
+	# Changes the xz terrain modifier.
+	# I believe lower numbers will make the layers longer in the xz plane.
+	# Default value is 684.412D
+	#Range: 1.0 ~ 1.0E7
+	xzTerrainModifier = 684.412
+	#
+	# Changes the y terrain modifier.
+	# I believe lower numbers will make less layers and thicken layers that do spawn.
+	# Default value is 68419.786D
+	#Range: 1.0 ~ 1.0E7
+	yTerrainModifier = 68419.786
+

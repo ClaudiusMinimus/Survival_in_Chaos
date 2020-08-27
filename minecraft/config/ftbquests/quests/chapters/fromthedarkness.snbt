@@ -9,7 +9,11 @@
 			title: "Think like a Hobbit",
 			x: 0.0d,
 			y: 0.0d,
-			description: ["Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door."],
+			description: [
+				"Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door.",
+				"",
+				"Be sure to read Suvival in Chaos"
+			],
 			dependency_requirement: "one_completed",
 			id: 5,
 			tasks: [{
@@ -37,6 +41,17 @@
 						Count: 1,
 						tag: {
 							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1488,
+					type: "item",
+					item: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"patchouli:book": "patchouli:chaos"
 						}
 					}
 				}

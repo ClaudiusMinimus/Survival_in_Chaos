@@ -1,0 +1,42 @@
+
+["General Dimension Options"]
+	#
+	# What item the player needs to hold and right click on the
+	# Polished Diorite to create the portal?
+	# The default entry is minecraft:flint_and_steel
+	# Note: set this to "" to disable portal creation completely.
+	portalActivationItem = "minecraft:flint_and_steel"
+	#
+	# Should beds explode in the Ultra Amplified Dimension?
+	bedExplodes = false
+	#
+	# Lets Nether Portals be able to be created in Ultra Amplified DImension.
+	# Using the portal in this dimension will take you to the Nether but Nether 
+	# Portals in the Nether will take you to the Overworld instead. So this option 
+	# is good if you want a second way of escaping the Ultra Amplified Dimension.
+	allowNetherPortal = false
+	#
+	# What corner blocks should we use to make a portal frame instead of Polish Granite?
+	# The default entry is minecraft:polish_granite
+	portalCornerBlocks = "minecraft:polished_granite"
+	#
+	# What ceiling blocks should we use to make a portal frame instead of Polish Andesite Slab?
+	# The default entry is minecraft:polish_andesite
+	portalCeilingBlocks = "minecraft:polished_andesite_slab"
+	#
+	# Adds very heavy fog to make the world look more spoky and limit visibility.
+	# This is not the same as distance fog which does not make chunks near you foggy.
+	heavyFog = false
+	#
+	# Should beds explode in the Ultra Amplified Dimension? Makes leaving the Ultra Amplified dimension always places you back
+	# in the Overworld regardless of which dimension you originally 
+	# came from. Use this option if this dimension becomes locked in  
+	# with another dimension so you are stuck teleporting between the 
+	# two and cannot get back to the Overworld
+	#
+	forceExitToOverworld = false
+	#
+	# What floor blocks should we use to make a portal frame instead of Polish Andesite Slab?
+	# The default entry is minecraft:polish_andesite
+	portalFloorBlocks = "minecraft:polished_andesite_slab"
+

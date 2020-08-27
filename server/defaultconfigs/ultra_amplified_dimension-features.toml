@@ -1,0 +1,161 @@
+
+["Feature Options"]
+
+	["Feature Options"."Main Ores Options"]
+		#
+		# How often Coal Ores will spawn.
+		# 0 for no Coal Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		coalOreSpawnrate = 35
+		#
+		# How often Gold Ores will spawn.
+		# 0 for no Gold Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		goldOreSpawnrate = 2
+		#
+		# How often Iron Ores will spawn.
+		# 0 for no Iron Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		ironOreSpawnrate = 50
+		#
+		# How often Lapis Lazuli Ores will spawn.
+		# 0 for no Lapis Lazuli Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		lapisOreSpawnrate = 2
+		#
+		# How often Redstone Ores will spawn.
+		# 0 for no Redstone Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		redstoneOreSpawnrate = 12
+		#
+		# How often Diamond Ores will spawn.
+		# 0 for no Diamond Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		diamondOreSpawnrate = 1
+
+		["Feature Options"."Main Ores Options"."Rocky Fields Ores and Features Options"]
+			#
+			# How often Emerald Ores will spawn in all Rocky Fields variant biomes in the form of a percentage.
+			# 0 for no Emerald Ores and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			emeraldOreSpawnrate = 100
+			#
+			# How often Silverfish Blocks will spawn in all Rocky Fields variant biomes.
+			# 0 for no Silverfish Blocks and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			silverfishSpawnrate = 18
+
+		["Feature Options"."Main Ores Options"."Netherland Ores and Features Options"]
+			#
+			# How often Glowstone will spawn in Netherland biome.
+			# 0 for no Glowstone and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			glowstoneSpawnrate = 20
+			#
+			# How often Magma Blocks will spawn below Y = 100 in Netherland biome.
+			# 0 for no Magma Blocks and 1000 for max spawnrate.
+			# Note: Will not affect the flat Magma layer separating water from lava below sealevel.
+			#Range: 0 ~ 1000
+			magmaSpawnrate = 5
+			#
+			# How often single Lava Blocks will spawn in Netherland biome.
+			# 0 for no single Lava Blocks and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			lavaSpawnrate = 70
+			#
+			# How often Quartz Ores will spawn.
+			# 0 for no Quartz Ores and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			quartzOreSpawnrate = 14
+
+	["Feature Options"."General Feature Options"]
+		#
+		# How often Underwater Caves will spawn in ocean biomes.
+		# 0 for no Underwater Caves and 100 for max spawnrate.
+		#Range: 0 ~ 100
+		oceanCaveSpawnrate = 20
+		#
+		# How often Ravines will spawn.
+		# 0 for no Ravines and 100 for max spawnrate.
+		#Range: 0 ~ 100
+		ravineSpawnrate = 25
+		#
+		# Controls whether Honey Lakes spawn or not.
+		# 1 for maximum spawnrate and 1000 for no lakes
+		#Range: 1 ~ 1000
+		honeyLakeGen = 16
+		#
+		# How often will ramps spawn.
+		# Default is 2 with 40 being an insane amount of ramps.
+		# Note: You need to close and reopen world for changes to take effect.
+		#Range: 1 ~ 40
+		rampSpawnrate = 2
+		#
+		# How often will column/pillars spawn.
+		# Default is 2 with 40 being an insane amount of columns.
+		# Note: You need to close and reopen world for changes to take effect.
+		#Range: 1 ~ 40
+		columnSpawnrate = 2
+		#
+		# Controls how often patches of Glowdirt and other modded Glowstone variants spawn.
+		# 0 for no patches and 1000 for max amount of patches.
+		#Range: 0 ~ 1000
+		glowstoneVariantsSpawnrate = 50
+		#
+		# Controls whether roots and short vines spawn or not on the underside of the floating land.
+		rootGen = true
+		#
+		# Controls whether Slime Lakes spawn or not.
+		# 1 for maximum spawnrate and 1000 for no lakes
+		#Range: 1 ~ 1000 default 7
+		slimeLakeGen = 21
+		#
+		# Controls whether columns/pillars features spawn or not.
+		# Note: You need to close and reopen world for changes to take effect.
+		columnGen = true
+		#
+		# How often Cave Cavity will spawn.
+		# 0 for no Cave Cavity and 22 for max spawnrate.
+		#Range: 0 ~ 22
+		caveCavitySpawnrate = 5
+		#
+		# Controls whether Water Lakes spawn or not.
+		# 1 for maximum spawnrate and 1000 for no lakes
+		#Range: 1 ~ 1000
+		waterLakeGen = 4
+		#
+		# How often waterfalls will spawn.
+		# 0 for no waterfalls and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		waterfallSpawnrate = 35
+		#
+		# How often Dungeons will spawn.
+		# 0 for no Dungeons and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		dungeonSpawnrate = 30
+		#
+		# How often lavafalls will spawn.
+		# 0 for no lavafalls and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		lavafallSpawnrate = 14
+		#
+		# Controls whether ramp features spawn or not.
+		# Note: You need to close and reopen world for changes to take effect.
+		rampGen = true
+		#
+		# Controls whether Lava Lakes spawn or not.
+		# 1 for maximum spawnrate and 1000 for no lakes
+		#Range: 1 ~ 1000
+		lavaLakeGen = 10
+
+	["Feature Options"."End Fields Islands Options"]
+		#
+		# How often End Islands will spawn in the End Biome.
+		# 0 for no End Islands and 100 for max spawnrate.
+		#Range: 0 ~ 100
+		endIslandSpawnrate = 6
+		#
+		# The maximum height that End Islands can spawn at in the End Field Biome.
+		#Range: 0 ~ 256
+		endIslandMaxHeight = 254
+

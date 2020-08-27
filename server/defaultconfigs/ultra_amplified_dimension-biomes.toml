@@ -1,0 +1,99 @@
+
+["Biome Options"]
+	#
+	# How often the mutated form of a biome will generate
+	# 0 for no mutated biomes and 10 for all biomes to be mutated.
+	#Range: 0 ~ 10
+	mutatedBiomeSpawnrate = 2
+	#
+	# How large the biomes are.
+	# Bigger number means bigger biomes.
+	#Range: 1 ~ 8
+	biomeSize = 3
+
+	["Biome Options"."Biome Toggle Options"]
+		#
+		# Should this biome be allowed to spawn?
+		lukewarmOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		forest = true
+		#
+		# Should this biome be allowed to spawn?
+		stonePlains = true
+		#
+		# Should Spiky Badlands and Dissected Plateau Badlands be allowed to spawn?
+		spikyBadlands = true
+		#
+		# Should this biome be allowed to spawn?
+		warmOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		bambooJungle = true
+		#
+		# Should this biome be allowed to spawn?
+		darkForest = true
+		#
+		# Should this biome be allowed to spawn?
+		rockyField = true
+		#
+		# Should this biome be allowed to spawn?
+		snowyTaiga = true
+		#
+		# Should this biome be allowed to spawn?
+		plains = true
+		#
+		# Should this biome be allowed to spawn?
+		savanna = true
+		#
+		# Should this biome be allowed to spawn?
+		end = true
+		#
+		# Should this biome be allowed to spawn?
+		coldOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		mushroom = true
+		#
+		# Should this biome be allowed to spawn?
+		frozenOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		taiga = true
+		#
+		# Should this biome be allowed to spawn?
+		birchForest = true
+		#
+		# Should this biome be allowed to spawn?
+		snowyTundra = true
+		#
+		# Should this biome be allowed to spawn?
+		swamplands = true
+		#
+		# Should this biome be allowed to spawn?
+		badlands = true
+		#
+		# Should this biome be allowed to spawn?
+		netherland = true
+		#
+		# Should this biome be allowed to spawn?
+		frozenDesert = true
+		#
+		# Should this biome be allowed to spawn?
+		ocean = true
+		#
+		# Should this biome be allowed to spawn?
+		icedTerrain = true
+		#
+		# Should this biome be allowed to spawn?
+		iceSpike = true
+		#
+		# Should this biome be allowed to spawn?
+		jungle = true
+		#
+		# Should this biome be allowed to spawn?
+		desert = true
+		#
+		# Should this biome be allowed to spawn?
+		giantTreeTaiga = true
+

@@ -1,0 +1,185 @@
+
+["Structure/Feature Options"]
+
+	["Structure/Feature Options"."Mini-structure Options"]
+		#
+		# Controls whether Desert Wells, Hay Piles, Sun Shrines, Stonehenges, and Crosses spawn or not.
+		miniStructureGeneration = true
+		#
+		# How rare are Sun Shrines.
+		# 1 for Sun Shrines spawning in most chunks and 1000 for very rare spawn.
+		# Spawns mainly in relic variant of biomes.
+		#Range: 1 ~ 1000
+		sunShrineSpawnrate = 130
+		#
+		# How rare are Stonehenges.
+		# 1 for Stonehenges spawning in most chunks and 1000 for very rare spawn.
+		# Spawns mainly in relic variant of biomes.
+		#Range: 1 ~ 1000
+		stonehengeSpawnrate = 15
+		#
+		# How rare are Hanging Ruins.
+		# 1000 for Hanging Ruins spawning in most chunks and 0 for no spawn.
+		# NOTE: this is backwards than other spawnrates.
+		# This is because other structures need have finer control on chances less than 1%.
+		# Spawns in most biomes except for oceans, Netherland, and Iced Terrain Biomes and more often in Rocky Fields variants and Stone Fields biomes.
+		#Range: 0 ~ 1000
+		hangingRuinsSpawnrate = 60
+
+	["Structure/Feature Options"."Structure Options"]
+		#
+		# Controls whether loot chests spawn or not in all structures.
+		chestGeneration = true
+
+		["Structure/Feature Options"."Structure Options"."Desert Temple"]
+			#
+			# How rare are Desert Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			desertTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options".Outpost]
+			#
+			# How rare are Pillager Outposts.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			pillageOutpostRarity = 20
+
+		["Structure/Feature Options"."Structure Options"."Woodland Mansion"]
+			#
+			# How rare are Woodland Mansion.
+			# 1 for Woodland Mansion spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			mansionSpawnrate = 18
+
+		["Structure/Feature Options"."Structure Options"."Witch Hut"]
+			#
+			# How rare are Witch Huts.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			witchHutSpawnrate = 14
+
+		["Structure/Feature Options"."Structure Options"."Ocean Ruins"]
+			#
+			# How rare are Ocean Ruins.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			oceanRuinsSpawnrate = 7
+
+		["Structure/Feature Options"."Structure Options"."Jungle Temple"]
+			#
+			# How rare are Jungle Temples.
+			# 1 for a spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			jungleTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options".Stronghold]
+			#
+			# How often Silverfish Blocks will generate in Strongholds.
+			# 0 for no Silverfish Blocks and 100 for max spawnrate.
+			#Range: 0.0 ~ 100.0
+			silverfishStrongholdSpawnrate = 4.0
+			#
+			# How rare are Strongholds.
+			# 1 for spawning in most chunks and 501 for no spawn.
+			#Range: 1 ~ 501
+			strongholdSpawnrate = 62
+			#
+			# Can Silverfish Mob Spawners generate in Stronghold?.
+			allowSilverfishSpawnerStronghold = true
+			#
+			# How large the Stronghold is on average as a percentage.
+			# Note: The Stonghold is much larger by default. To get something 
+			# closer to vanilla stronghold size, use the value of 60.
+			# 10 for supertiny Strongholds and 2000 for supermassive Strongholds.
+			#Range: 10.0 ~ 2000.0
+			strongholdSizeSH = 100.0
+
+		["Structure/Feature Options"."Structure Options"."Nether Fortress"]
+			#
+			# How rare are Nether Fortresses that spawn 
+			# aboveground in the Netherland biome (between y = 85 and 130).
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			netherFortressSpawnrate = 6
+
+		["Structure/Feature Options"."Structure Options".Shipwreck]
+			#
+			# How rare are Shipwrecks.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			shipwreckSpawnrate = 7
+
+		["Structure/Feature Options"."Structure Options"."Ice Spike Temple"]
+			#
+			# How rare are Ice Spike Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			iceSpikeTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options"."Mushroom Temple"]
+			#
+			# How rare are Mushroom Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			mushroomTempleSpawnrate = 12
+
+		["Structure/Feature Options"."Structure Options"."End City"]
+			#
+			# How rare are End Cities.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			endCitySpawnrate = 22
+
+		["Structure/Feature Options"."Structure Options"."Ocean Monument"]
+			#
+			# How rare are Ocean Monuments.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			oceanMonumentSpawnrate = 22
+
+		["Structure/Feature Options"."Structure Options".Villages]
+			#
+			# How rare are Villages.
+			# 1 for Village spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			villageSpawnrate = 16
+			#
+			# What percentage of Classic Styled Villages are Zombie Villages.
+			# 0 for no Zombie Village spawning and 100 for all Villages being zombified.
+			#Range: 0 ~ 100
+			villageZombieSpawnrate = 10
+
+		["Structure/Feature Options"."Structure Options"."Stone Fortress"]
+			#
+			# Can Silverfish Mob Spawners generate in Stone Fortresses?
+			allowSilverfishSpawnerFortress = true
+			#
+			# Can Silverfish spawn naturally over time in Stone Fortresses?
+			allowNaturalSilverfishFortress = true
+			#
+			# How rare are Stone Fortresses that spawn underground (below y = 65).
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			stoneFortressSpawnrate = 14
+
+		["Structure/Feature Options"."Structure Options".Mineshaft]
+			#
+			# Can aboveground floating Mineshafts spawn?
+			mineshaftAbovegroundAllowed = true
+			#
+			# Can undergound giant pit Mineshafts spawn?
+			mineshaftUndergroundAllowed = true
+			#
+			# How often Mineshafts will spawn.
+			# 0 for no Mineshafts and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			mineshaftSpawnrate = 22
+
+		["Structure/Feature Options"."Structure Options".Igloo]
+			#
+			# How rare are igloos.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			iglooSpawnrate = 14
+
