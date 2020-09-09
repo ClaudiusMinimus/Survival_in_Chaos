@@ -176,9 +176,12 @@
 				item: "storagenetwork:inventory"
 			}],
 			rewards: [{
-				id: 1490,
-				type: "xp",
-				xp: 100
+				id: 1503,
+				type: "item",
+				item: {
+					id: "minecraft:sea_lantern",
+					Count: 8
+				}
 			}]
 		},
 		{

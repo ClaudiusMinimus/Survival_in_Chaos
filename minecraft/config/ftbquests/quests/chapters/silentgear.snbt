@@ -99,11 +99,13 @@
 			title: "We Three Tools",
 			x: -1.5d,
 			y: -3.0d,
+			shape: "diamond",
 			description: [
 				"If you have not already done so, right-click on the Blueprint Package you received upon first joining the game. ",
 				"",
 				"Now place one of the blueprints in your crafting grid with the required pieces of cobblestone and a single stick to craft a pickaxe (3 x cobble), an axe (3 x cobble), and a shovel (1 x cobble)."
 			],
+			size: 1.5d,
 			id: 123,
 			tasks: [
 				{

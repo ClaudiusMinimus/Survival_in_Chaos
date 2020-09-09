@@ -431,6 +431,24 @@
 				type: "item",
 				item: "silentgear:quartz_tipped_upgrade"
 			}]
+		},
+		{
+			title: "Eat all of your vegtables",
+			x: -6.0d,
+			y: -5.5d,
+			shape: "heart",
+			description: ["A healthy and varied diet can provide many health benefits. Eating a variety of foods will even give you extra hearts!"],
+			size: 1.5d,
+			id: 1507,
+			tasks: [{
+				id: 1508,
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: 1509,
+				type: "item",
+				item: "cyclic:heart"
+			}]
 		}
 	]
 }
