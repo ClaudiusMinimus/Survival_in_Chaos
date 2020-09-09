@@ -1053,6 +1053,27 @@
 					Count: 10
 				}
 			}]
+		},
+		{
+			title: "Wither Rose for Cursed Earth",
+			x: -3.0d,
+			y: 3.0d,
+			description: [
+				"With a Wither Rose you can make Cursed Earth, which will spawn lots of mobs when the lights are down low.",
+				"",
+				"Take the rose and shift-right-click on dirt to make Cursed Earth."
+			],
+			id: 1500,
+			tasks: [{
+				id: 1501,
+				type: "item",
+				item: "minecraft:wither_rose"
+			}],
+			rewards: [{
+				id: 1502,
+				type: "item",
+				item: "darkutils:ender_hopper"
+			}]
 		}
 	]
 }

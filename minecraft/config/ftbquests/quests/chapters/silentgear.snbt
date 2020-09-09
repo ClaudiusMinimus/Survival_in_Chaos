@@ -98,7 +98,7 @@
 		{
 			title: "We Three Tools",
 			x: -1.5d,
-			y: -1.5d,
+			y: -3.0d,
 			description: [
 				"If you have not already done so, right-click on the Blueprint Package you received upon first joining the game. ",
 				"",
@@ -761,7 +761,7 @@
 				"",
 				"Wooden patterns are a one-time use item."
 			],
-			dependencies: [I;123],
+			dependencies: [I;1495],
 			id: 143,
 			tasks: [
 				{
@@ -1170,6 +1170,254 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Any Crude Dagger",
+			x: -1.5d,
+			y: -1.5d,
+			description: [
+				"This is a tricky one. Not all recipes in JEI work for this, but if you craft a Rough Rod and place it in a crafting grid with a piece of Andesite, Granite, or Diorite it will craft a Crude Dagger",
+				"",
+				"The Dagger will let you craft Template Boards, which will allow you to craft one time use tool templates."
+			],
+			dependencies: [I;123],
+			dependency_requirement: "one_completed",
+			id: 1495,
+			tasks: [
+				{
+					id: 1496,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -6445736362882874778L,
+							SGear_UUIDMost: 5791057238796487566L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:granite",
+															Count: 1
+														},
+														ID: "silentgear:stone/granite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/granite},rod/rough,"
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 1497,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -6113640670222005085L,
+							SGear_UUIDMost: -993454010487976867L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:diorite",
+															Count: 1
+														},
+														ID: "silentgear:stone/diorite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/diorite},rod/rough,"
+								}
+							}
+						}
+					}
+				},
+				{
+					id: 1498,
+					type: "item",
+					item: {
+						id: "silentgear:dagger",
+						Count: 1,
+						tag: {
+							SGear_UUIDLeast: -5212427410715455299L,
+							SGear_UUIDMost: 2831194394131579261L,
+							Damage: 0,
+							SGear_Data: {
+								Construction: {
+									Parts: [
+										{
+											Item: {
+												id: "silentgear:dagger_blade",
+												Count: 1,
+												tag: {
+													Materials: [{
+														Item: {
+															id: "minecraft:andesite",
+															Count: 1
+														},
+														ID: "silentgear:stone/andesite"
+													}]
+												}
+											},
+											ID: "silentgear:dagger_blade"
+										},
+										{
+											Item: {
+												id: "silentgear:rough_rod",
+												Count: 1
+											},
+											ID: "silentgear:rod/rough"
+										}
+									]
+								},
+								Properties: {
+									ModVersion: "1.11.3+160",
+									Stats: {
+										"silentgear:harvest_speed": 3.52f,
+										"silentgems:chargeability": 0.5f,
+										"silentgear:harvest_level": 1.0f,
+										"silentgear:reach_distance": -1.0f,
+										"silentgear:melee_damage": 2.44f,
+										"silentgear:attack_speed": -1.2f,
+										"silentgear:rarity": 0.27207792f,
+										"silentgear:repair_efficiency": 2.0f,
+										"silentgear:enchantability": 4.4f,
+										"silentgear:ranged_speed": -0.2f,
+										"silentgear:ranged_damage": 0.0f,
+										"silentgear:durability": 86.46f,
+										"silentgear:magic_damage": 0.0f
+									},
+									synergy: 0.88f,
+									LockStats: 0,
+									Traits: [
+										{
+											Level: 1,
+											Name: "silentgear:ancient"
+										},
+										{
+											Level: 3,
+											Name: "silentgear:crude"
+										}
+									]
+								},
+								Rendering: {
+									ModelKey: "dagger:dagger_blade{stone/andesite},rod/rough,"
+								}
+							}
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 1499,
+				type: "item",
+				item: {
+					id: "silentgear:template_board",
+					Count: 18
+				}
+			}]
 		}
 	]
 }
