@@ -322,11 +322,21 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 59,
-				type: "item",
-				item: "minecraft:slime_block"
-			}]
+			rewards: [
+				{
+					id: 59,
+					type: "item",
+					item: "minecraft:slime_block"
+				},
+				{
+					id: 1511,
+					type: "item",
+					item: {
+						id: "additional_lights:al_torch_stone_bricks",
+						Count: 8
+					}
+				}
+			]
 		},
 		{
 			x: -1.5d,

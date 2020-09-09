@@ -1178,7 +1178,7 @@
 			x: -1.5d,
 			y: -1.5d,
 			description: [
-				"This is a tricky one. Not all recipes in JEI work for this, but if you craft a Rough Rod and place it in a crafting grid with a piece of Andesite, Granite, or Diorite it will craft a Crude Dagger",
+				"Not all recipes in JEI work for this dagger, but if you craft a Rough Rod and place it in a crafting grid with an ingot, gem, plank, or various stone blocks it will craft a Crude Dagger.",
 				"",
 				"The Dagger will let you craft Template Boards, which will allow you to craft one time use tool templates."
 			],

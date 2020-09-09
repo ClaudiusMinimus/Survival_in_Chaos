@@ -1074,6 +1074,37 @@
 				type: "item",
 				item: "darkutils:ender_hopper"
 			}]
+		},
+		{
+			title: "Catch me if you can",
+			x: 1.5d,
+			y: 3.0d,
+			description: ["Ever need to capture a mob, well today is your lucky day! Craft these items and catch all you can."],
+			id: 1514,
+			tasks: [
+				{
+					id: 1515,
+					type: "item",
+					item: {
+						id: "mobcatcher:net_launcher",
+						Count: 1,
+						tag: {}
+					}
+				},
+				{
+					id: 1516,
+					type: "item",
+					item: "mobcatcher:net"
+				}
+			],
+			rewards: [{
+				id: 1517,
+				type: "item",
+				item: {
+					id: "mobcatcher:net",
+					Count: 4
+				}
+			}]
 		}
 	]
 }

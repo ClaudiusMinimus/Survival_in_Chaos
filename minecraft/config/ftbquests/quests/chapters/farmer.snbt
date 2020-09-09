@@ -19,9 +19,9 @@
 				count: 12
 			}],
 			rewards: [{
-				id: 178,
-				type: "xp",
-				xp: 50
+				id: 1512,
+				type: "item",
+				item: "xreliquary:fertile_lily_pad"
 			}]
 		},
 		{
@@ -46,13 +46,7 @@
 			rewards: [{
 				id: 190,
 				type: "item",
-				item: {
-					id: "cyclic:sleeping_mat",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "comforts:sleeping_bag_blue"
 			}]
 		},
 		{
