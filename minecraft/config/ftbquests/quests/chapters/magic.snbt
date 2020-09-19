@@ -15,6 +15,14 @@
 				id: 1413,
 				type: "item",
 				item: "botania:lexicon"
+			}],
+			rewards: [{
+				id: 1546,
+				type: "item",
+				item: {
+					id: "botania:fertilizer",
+					Count: 16
+				}
 			}]
 		},
 		{
@@ -26,6 +34,11 @@
 				id: 1415,
 				type: "item",
 				item: "botania:apothecary_default"
+			}],
+			rewards: [{
+				id: 1536,
+				type: "item",
+				item: "minecraft:bucket"
 			}]
 		},
 		{
@@ -38,6 +51,14 @@
 				type: "item",
 				item: "botania:pure_daisy",
 				count: 2
+			}],
+			rewards: [{
+				id: 1537,
+				type: "item",
+				item: {
+					id: "botania:floating_pure_daisy",
+					Count: 2
+				}
 			}]
 		},
 		{
@@ -50,7 +71,36 @@
 				type: "item",
 				item: "botania:livingwood",
 				count: 16
-			}]
+			}],
+			rewards: [
+				{
+					id: 1542,
+					type: "item",
+					item: "botania:incense_plate"
+				},
+				{
+					id: 1543,
+					type: "item",
+					item: {
+						id: "botania:incense_stick",
+						Count: 1,
+						tag: {
+							brewKey: "botania:night_vision"
+						}
+					}
+				},
+				{
+					id: 1544,
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		},
 		{
 			x: 1.0d,
@@ -62,6 +112,14 @@
 				type: "item",
 				item: "botania:livingrock",
 				count: 16
+			}],
+			rewards: [{
+				id: 1538,
+				type: "item",
+				item: {
+					id: "apotheosis:obsidian_arrow",
+					Count: 4
+				}
 			}]
 		},
 		{
@@ -71,6 +129,11 @@
 			id: 1422,
 			tasks: [{
 				id: 1423,
+				type: "item",
+				item: "botania:mana_spreader"
+			}],
+			rewards: [{
+				id: 1547,
 				type: "item",
 				item: "botania:mana_spreader"
 			}]
@@ -84,6 +147,14 @@
 				id: 1425,
 				type: "item",
 				item: "botania:mana_distributor"
+			}],
+			rewards: [{
+				id: 1540,
+				type: "item",
+				item: {
+					id: "botania:thorn_chakram",
+					Count: 6
+				}
 			}]
 		},
 		{
@@ -95,19 +166,25 @@
 				id: 1427,
 				type: "item",
 				item: "botania:mana_pool"
-			}]
-		},
-		{
-			x: -2.0d,
-			y: 0.0d,
-			dependencies: [I;1412],
-			id: 1428,
-			tasks: [{
-				id: 1429,
-				type: "item",
-				item: "botania:fertilizer",
-				count: 4
-			}]
+			}],
+			rewards: [
+				{
+					id: 1539,
+					type: "item",
+					item: {
+						id: "botania:mana_pool",
+						Count: 3
+					}
+				},
+				{
+					id: 1545,
+					type: "item",
+					item: {
+						id: "botania:black_lotus",
+						Count: 16
+					}
+				}
+			]
 		},
 		{
 			x: -2.0d,
@@ -123,6 +200,14 @@
 					},
 					id: "botania:flower_bag",
 					Count: 1
+				}
+			}],
+			rewards: [{
+				id: 1535,
+				type: "item",
+				item: {
+					id: "tp:bacon_sandwhich",
+					Count: 8
 				}
 			}]
 		},
@@ -146,6 +231,11 @@
 						bindMode: 1
 					}
 				}
+			}],
+			rewards: [{
+				id: 1548,
+				type: "item",
+				item: "botania:hopperhock"
 			}]
 		},
 		{
@@ -161,6 +251,7 @@
 		{
 			x: 1.5d,
 			y: -2.0d,
+			dependencies: [I;1414],
 			id: 1436,
 			tasks: [{
 				id: 1437,
@@ -175,6 +266,48 @@
 					id: "botania:endoflame",
 					Count: 4
 				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -7.5d,
+			dependencies: [I;1426],
+			id: 1549,
+			tasks: [{
+				id: 1550,
+				type: "item",
+				item: "botania:manasteel_ingot"
+			}],
+			rewards: [{
+				id: 1551,
+				type: "item",
+				item: {
+					id: "tp:birthday_pickaxe",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -8.5d,
+			dependencies: [I;1549],
+			id: 1552,
+			tasks: [{
+				id: 1553,
+				type: "item",
+				item: {
+					id: "botania:magnet_ring",
+					Count: 1,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 1554,
+				type: "item",
+				item: "botania:floating_solegnolia"
 			}]
 		}
 	]
