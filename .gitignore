@@ -67,7 +67,7 @@ instance.cfg
 *_0.*
 
 # Do not ignore these directories
-!minecraft/defaultworldtype
+!minecraft/config/defaultworldtype
 !minecraft/config/defaultoptions
 !minecraft/config/ftbquests
 !minecraft/config/ProjectEssentials
