@@ -990,8 +990,8 @@
 		},
 		{
 			icon: "minecraft:sea_lantern",
-			x: -3.5d,
-			y: -5.5d,
+			x: 6.5d,
+			y: -4.5d,
 			id: 1406,
 			tasks: [{
 				id: 1407,
@@ -1004,28 +1004,6 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_dragon",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: 2.0d,
-			y: -5.5d,
-			id: 1408,
-			tasks: [{
-				id: 1409,
-				type: "kill",
-				entity: "farlanders:ender_guardian",
-				value: 1
-			}],
-			rewards: [{
-				id: 1410,
-				type: "item",
-				item: {
-					id: "gobber2:gobber2_boots_dragon",
 					Count: 1,
 					tag: {
 						Damage: 0
@@ -1051,6 +1029,58 @@
 				item: {
 					id: "botania:terrasteel_block",
 					Count: 10
+				}
+			}]
+		},
+		{
+			title: "Wither Rose for Cursed Earth",
+			x: -3.0d,
+			y: 3.0d,
+			description: [
+				"With a Wither Rose you can make Cursed Earth, which will spawn lots of mobs when the lights are down low.",
+				"",
+				"Take the rose and shift-right-click on dirt to make Cursed Earth."
+			],
+			id: 1500,
+			tasks: [{
+				id: 1501,
+				type: "item",
+				item: "minecraft:wither_rose"
+			}],
+			rewards: [{
+				id: 1502,
+				type: "item",
+				item: "darkutils:ender_hopper"
+			}]
+		},
+		{
+			title: "Catch me if you can",
+			x: 1.5d,
+			y: 3.0d,
+			description: ["Ever need to capture a mob, well today is your lucky day! Craft these items and catch all you can."],
+			id: 1514,
+			tasks: [
+				{
+					id: 1515,
+					type: "item",
+					item: {
+						id: "mobcatcher:net_launcher",
+						Count: 1,
+						tag: {}
+					}
+				},
+				{
+					id: 1516,
+					type: "item",
+					item: "mobcatcher:net"
+				}
+			],
+			rewards: [{
+				id: 1517,
+				type: "item",
+				item: {
+					id: "mobcatcher:net",
+					Count: 4
 				}
 			}]
 		}

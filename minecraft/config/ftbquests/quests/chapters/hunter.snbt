@@ -990,8 +990,8 @@
 		},
 		{
 			icon: "minecraft:sea_lantern",
-			x: -3.5d,
-			y: -5.5d,
+			x: 6.5d,
+			y: -4.5d,
 			id: 1406,
 			tasks: [{
 				id: 1407,
@@ -1004,28 +1004,6 @@
 				type: "item",
 				item: {
 					id: "gobber2:gobber2_helmet_dragon",
-					Count: 1,
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		},
-		{
-			x: 2.0d,
-			y: -5.5d,
-			id: 1408,
-			tasks: [{
-				id: 1409,
-				type: "kill",
-				entity: "farlanders:ender_guardian",
-				value: 1
-			}],
-			rewards: [{
-				id: 1410,
-				type: "item",
-				item: {
-					id: "gobber2:gobber2_boots_dragon",
 					Count: 1,
 					tag: {
 						Damage: 0

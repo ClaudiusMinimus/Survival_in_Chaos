@@ -666,17 +666,27 @@
 				type: "item",
 				item: "craftingcraft:portable_crafting"
 			}],
-			rewards: [{
-				id: 1313,
-				type: "item",
-				item: {
-					id: "wtbw_tools:trowel",
-					Count: 1,
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: 1313,
+					type: "item",
+					item: {
+						id: "wtbw_tools:trowel",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1533,
+					type: "item",
+					item: {
+						id: "simplefarming:hamburger",
+						Count: 8
 					}
 				}
-			}]
+			]
 		},
 		{
 			x: 0.0d,

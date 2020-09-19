@@ -37,7 +37,7 @@
 			]
 		},
 		{
-			x: 0.0d,
+			x: 1.0d,
 			y: -1.5d,
 			dependencies: [I;262],
 			id: 438,
@@ -53,7 +53,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: 1.0d,
 			y: -3.0d,
 			dependencies: [I;438],
 			id: 440,
@@ -72,7 +72,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: 1.0d,
 			y: -4.5d,
 			dependencies: [I;440],
 			id: 442,
@@ -91,7 +91,7 @@
 			}]
 		},
 		{
-			x: 0.0d,
+			x: 1.0d,
 			y: -6.0d,
 			dependencies: [I;442],
 			id: 444,
@@ -883,7 +883,7 @@
 			}]
 		},
 		{
-			x: -1.0d,
+			x: 1.0d,
 			y: -7.5d,
 			dependencies: [I;444],
 			id: 1134,
@@ -894,25 +894,13 @@
 			}],
 			rewards: [{
 				id: 1142,
-				type: "item"
-			}]
-		},
-		{
-			x: 1.0d,
-			y: -7.5d,
-			dependencies: [I;444],
-			id: 1136,
-			tasks: [{
-				id: 1137,
-				type: "item",
-				item: "metalbarrels:diamond_to_crystal"
-			}],
-			rewards: [{
-				id: 1141,
 				type: "item",
 				item: {
-					id: "xreliquary:holy_hand_grenade",
-					Count: 8
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "potionsmaster:diamond_sight"
+					}
 				}
 			}]
 		},
@@ -1526,6 +1514,98 @@
 				item: {
 					id: "refinedstorage:range_upgrade",
 					Count: 2
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: [I;262],
+			id: 1518,
+			tasks: [{
+				id: 1519,
+				type: "item",
+				item: "metalbarrels:wood_to_copper"
+			}],
+			rewards: [{
+				id: 1524,
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -3.0d,
+			dependencies: [I;1518],
+			id: 1520,
+			tasks: [{
+				id: 1521,
+				type: "item",
+				item: "metalbarrels:copper_to_silver"
+			}],
+			rewards: [{
+				id: 1525,
+				type: "item",
+				item: {
+					id: "minecraft:quartz",
+					Count: 32
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.5d,
+			dependencies: [I;1520],
+			id: 1522,
+			tasks: [{
+				id: 1523,
+				type: "item",
+				item: "metalbarrels:silver_to_gold"
+			}],
+			rewards: [{
+				id: 1526,
+				type: "item",
+				item: "tp:cobblegen_diamond_block"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -6.0d,
+			dependencies: [I;1522],
+			id: 1527,
+			tasks: [{
+				id: 1528,
+				type: "item",
+				item: "metalbarrels:copper_to_diamond"
+			}],
+			rewards: [{
+				id: 1531,
+				type: "item",
+				item: {
+					id: "minecraft:redstone_block",
+					Count: 8
+				}
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -7.5d,
+			dependencies: [I;1527],
+			id: 1529,
+			tasks: [{
+				id: 1530,
+				type: "item",
+				item: "metalbarrels:wood_to_obsidian"
+			}],
+			rewards: [{
+				id: 1532,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1,
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
 				}
 			}]
 		}
