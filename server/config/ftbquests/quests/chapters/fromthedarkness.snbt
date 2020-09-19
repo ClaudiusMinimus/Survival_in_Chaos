@@ -9,12 +9,14 @@
 			title: "Think like a Hobbit",
 			x: 0.0d,
 			y: 0.0d,
+			shape: "diamond",
 			description: [
 				"Hobbits really are amazing creatures. Well now it is time to dig like a hobbit and get safe. Dig 10 dirt blocks, so you can make a temp shelter. We will provide a door.",
 				"",
 				"Be sure to read Suvival in Chaos"
 			],
 			dependency_requirement: "one_completed",
+			size: 1.5d,
 			id: 5,
 			tasks: [{
 				id: 6,
@@ -320,11 +322,21 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 59,
-				type: "item",
-				item: "minecraft:slime_block"
-			}]
+			rewards: [
+				{
+					id: 59,
+					type: "item",
+					item: "minecraft:slime_block"
+				},
+				{
+					id: 1511,
+					type: "item",
+					item: {
+						id: "additional_lights:al_torch_stone_bricks",
+						Count: 8
+					}
+				}
+			]
 		},
 		{
 			x: -1.5d,
@@ -616,9 +628,12 @@
 			]
 		},
 		{
-			x: 4.5d,
-			y: 0.0d,
-			dependencies: [I;16],
+			title: "Going Up",
+			x: 0.0d,
+			y: -3.0d,
+			description: ["These handy little guns are great when you need to go up, down, or to the next plateau. Be sure to have lots of wood slabs and ropes as you go out and explore."],
+			dependencies: [I;57],
+			dependency_requirement: "one_completed",
 			id: 446,
 			tasks: [
 				{
@@ -651,17 +666,27 @@
 				type: "item",
 				item: "craftingcraft:portable_crafting"
 			}],
-			rewards: [{
-				id: 1313,
-				type: "item",
-				item: {
-					id: "wtbw_tools:trowel",
-					Count: 1,
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: 1313,
+					type: "item",
+					item: {
+						id: "wtbw_tools:trowel",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1533,
+					type: "item",
+					item: {
+						id: "simplefarming:hamburger",
+						Count: 8
 					}
 				}
-			}]
+			]
 		},
 		{
 			x: 0.0d,
@@ -678,6 +703,30 @@
 				id: 1482,
 				type: "item",
 				item: "tp:stone_hammer"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 3.0d,
+			description: [
+				"Has it ever frustrated you that you cannot recycle broken or useless metal items or tools? With the Alloy Furnace, you can now recycle many things.",
+				"",
+				"However, some tools if used too long will break and be destroyed, so be sure to recycle before that happens. "
+			],
+			dependencies: [I;30],
+			id: 1504,
+			tasks: [{
+				id: 1505,
+				type: "item",
+				item: "bluepower:alloyfurnace"
+			}],
+			rewards: [{
+				id: 1506,
+				type: "item",
+				item: {
+					id: "tp:cooked_apple",
+					Count: 8
+				}
 			}]
 		}
 	]

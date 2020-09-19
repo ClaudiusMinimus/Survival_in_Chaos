@@ -2,6 +2,7 @@
 minecraft/natives/*
 minecraft/.mixin.out/*
 minecraft/backup/*
+minecraft/backups/*
 minecraft/config/*
 minecraft/crash-reports/*
 minecraft/ct_dumps/*
@@ -23,6 +24,7 @@ server/config/defaultoptions/*
 server/journeymap/*
 server/libraries/*
 server/logs/*
+server/ma-essentials/players/*
 server/mods/*
 server/world/*
 server/world*
@@ -65,7 +67,7 @@ instance.cfg
 *_0.*
 
 # Do not ignore these directories
-!minecraft/defaultworldtype
+!minecraft/config/defaultworldtype
 !minecraft/config/defaultoptions
 !minecraft/config/ftbquests
 !minecraft/config/ProjectEssentials
@@ -85,3 +87,5 @@ server/eula.txt
 server/forge.jar
 server/minecraft_server.1.15.2.jar
 *.properties
+minecraft/config/ProjectEssentials/general.properties
+modlist.html

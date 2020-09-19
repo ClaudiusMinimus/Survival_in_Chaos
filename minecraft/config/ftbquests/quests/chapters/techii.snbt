@@ -143,16 +143,6 @@
 					item: "industrialforegoing:plastic"
 				}
 			]
-		},
-		{
-			x: -5.0d,
-			y: -4.0d,
-			id: 923,
-			tasks: [{
-				id: 924,
-				type: "item",
-				item: "bluepower:alloyfurnace"
-			}]
 		}
 	]
 }
