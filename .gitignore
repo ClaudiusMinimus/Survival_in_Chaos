@@ -88,3 +88,4 @@ server/forge.jar
 server/minecraft_server.1.15.2.jar
 *.properties
 minecraft/config/ProjectEssentials/general.properties
+modlist.html
