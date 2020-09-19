@@ -1,4 +1,4 @@
-# Temp testing scripts
+# Applied Energistics 2 scripts
 
 // ================================================================================
 //#MARKER REMOVE
