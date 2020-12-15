@@ -9,7 +9,7 @@ assignees: ''
 
 **Describe the bug**
 - A clear and concise description of what the bug is.
-- Please paste a link to this Bug Report in our [discord support channel](https://discord.com/channels/445225930554605578/746249954301050910)
+- Please paste a link to this Bug Report in our discord in the sic-support channel. https://discord.com/invite/jXrx4Tu
 
 **To Reproduce**
 Steps to reproduce the behavior:
