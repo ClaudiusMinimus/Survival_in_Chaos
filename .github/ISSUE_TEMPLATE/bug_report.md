@@ -25,11 +25,14 @@ Steps to reproduce the behavior:
 - If applicable, add screenshots to help explain your problem.
 
 **Survival in Chaos version (please complete the following information):**
- - Version: [e.g. 1.16.4-0.42.2]
- 
+- Version: [e.g. 1.16.4-0.42.2]
+- Have you added any additional mods or made other changes to the pack: Y/N
+- If yes to above, please list the mods and/or changes .
+
 **Crash Reports and/or logs**
 1. Please DO NOT paste the contents for any logs or crash reports!
 2. Please use a service like https://pastebin.com/
 
 **Additional context**
 - Add any other context about the problem here.
+
