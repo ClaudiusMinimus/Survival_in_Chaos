@@ -32,4 +32,5 @@ If applicable, add screenshots to help explain your problem.
 3. Please paste a link to your Bug Report in our [discord support channel](https://discord.com/channels/445225930554605578/746249954301050910)
 
 **Additional context**
+
 Add any other context about the problem here.
