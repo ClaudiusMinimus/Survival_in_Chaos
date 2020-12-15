@@ -24,7 +24,11 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Survival in Chaos version (please complete the following information):**
- - Version: [e.g. 0.42.2]
+ - Version: [e.g. 1.16.4-0.42.2]
+ 
+**Crash Reports and/or logs**
+Please DO NOT paste the contents for any logs or crash reports!
+Please use a service like https://pastebin.com/
 
 **Additional context**
 Add any other context about the problem here.
